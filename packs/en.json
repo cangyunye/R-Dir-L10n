@@ -1,0 +1,10 @@
+{
+  "meta": { "id": "en", "name": "English", "version": "0.1.0", "minAppVersion": "0.38.0" },
+  "strings": {},
+  "errors": {
+    "CANCELLED": "Cancelled",
+    "CMD_NOT_FOUND": "Command not found",
+    "NEED_PASSWORD": "Password required",
+    "WRONG_PASSWORD": "Incorrect password"
+  }
+}

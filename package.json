@@ -1,0 +1,12 @@
+{
+  "name": "@rdir/l10n",
+  "version": "0.1.0",
+  "private": true,
+  "description": "R-Dir 语言包独立仓库（纯 JSON + 校验脚本，零依赖；主仓库构建期以 @rdir/l10n 引用）",
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-keys.mjs",
+    "check": "node scripts/extract-keys.mjs && node scripts/check-coverage.mjs",
+    "check:loose": "node scripts/extract-keys.mjs && node scripts/check-coverage.mjs --loose"
+  }
+}

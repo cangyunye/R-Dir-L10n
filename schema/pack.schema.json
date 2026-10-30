@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "pack.schema.json",
+  "title": "R-Dir Language Pack",
+  "description": "R-Dir 语言包结构。strings 的 key 为中文原文（可含 {n} 类占位符），errors 的 key 为 Rust 错误码（CODE 或 \"CODE|详情\" 中的 CODE）。",
+  "type": "object",
+  "required": ["meta", "strings", "errors"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["id", "name", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$",
+          "description": "语言标识，如 en / zh-Hant"
+        },
+        "name": { "type": "string", "minLength": 1, "description": "语言显示名，如 English" },
+        "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+        "minAppVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" }
+      }
+    },
+    "strings": {
+      "type": "object",
+      "propertyNames": { "type": "string", "minLength": 1 },
+      "additionalProperties": { "type": "string" }
+    },
+    "errors": {
+      "type": "object",
+      "propertyNames": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}
