@@ -31,7 +31,7 @@ function parseKeys(txt) {
       else if (/^#\s*errors/.test(line)) section = codes;
       continue;
     }
-    const key = line.trim();
+    const key = line.trim().replace(/\\n/g, "\n");
     if (key && section) section.add(key);
   }
   return { strings, codes };

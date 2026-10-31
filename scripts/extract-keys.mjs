@@ -95,6 +95,7 @@ const LITERAL_PROP_FILES = [
   "src/components/SettingsDialog.tsx",
   "src/components/Sidebar.tsx",
   "src/components/StatusBar.tsx",
+  "src/components/FileList.tsx",
 ];
 for (const rel of LITERAL_PROP_FILES) {
   const f = join(mainRepo, rel);
@@ -108,7 +109,8 @@ for (const rel of LITERAL_PROP_FILES) {
 const lines = [
   "# R-Dir i18n keys —— 由 scripts/extract-keys.mjs 自动生成，请勿手改",
   '# strings —— t("...") 的 key（中文原文）',
-  ...[...stringKeys].sort(),
+  // key 内的换行转义为字面 \n（keys.txt 是行格式；check-coverage 读取时还原）
+  ...[...stringKeys].sort().map((k) => k.replace(/\n/g, "\\n")),
   '# errors —— terr("CODE|...") 与 Rust 管道码（裸码扫不到，由 check-coverage 的 CANONICAL_CODES 兜底）',
   ...[...codeKeys].sort(),
 ];
