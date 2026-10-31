@@ -90,19 +90,29 @@ for (const f of packFiles) {
   const staleStrings = Object.keys(strings).filter((k) => !keys.strings.has(k));
   const missingErrors = [...allCodes].filter((c) => !(c in errors));
   const staleErrors = Object.keys(errors).filter((c) => !allCodes.has(c));
+  // 占位符一致性：译文必须保留 key 中的全部 {xxx} 占位符（顺序可不同），丢失会渲染出原始 {n}
+  const ph = (s) => [...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(",");
+  const phMissing = Object.entries(strings)
+    .filter(([k, v]) => keys.strings.has(k) && ph(k) !== ph(v))
+    .map(([k]) => k);
 
   for (const k of missingStrings) console.error(`✗ ${f} strings 缺失：${k}`);
   for (const k of staleStrings)
     console.error(`✗ ${f} strings 疑似失配（keys.txt 已无此 key，多为中文措辞变更）：${k}`);
+  for (const k of phMissing)
+    console.error(`✗ ${f} strings 占位符不一致：${k}（key={${ph(k)}} 译文={${ph(strings[k])}}）`);
   for (const c of missingErrors) console.error(`✗ ${f} errors 缺失：${c}`);
   for (const c of staleErrors)
     console.warn(`⚠ ${f} errors 未被发现使用（仅警告，裸码可能扫不到）：${c}`);
 
   const packFailed =
-    (missingStrings.length > 0 && !loose) || staleStrings.length > 0 || missingErrors.length > 0;
+    (missingStrings.length > 0 && !loose) ||
+    staleStrings.length > 0 ||
+    missingErrors.length > 0 ||
+    phMissing.length > 0;
   if (packFailed) failed = true;
   console.log(
-    `${packFailed ? "✗" : "✓"} ${f}（${pack.meta.id}）：strings ${Object.keys(strings).length}/${keys.strings.size}，errors ${Object.keys(errors).length}/${allCodes.size}`
+    `${packFailed ? "✗" : "✓"} ${f}（${pack.meta.id}）：strings ${Object.keys(strings).length}/${keys.strings.size}，errors ${Object.keys(errors).length}/${allCodes.size}${phMissing.length ? `，占位符不一致 ${phMissing.length}` : ""}`
   );
 }
 
