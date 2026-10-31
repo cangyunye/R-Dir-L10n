@@ -2,3 +2,5 @@
 # strings —— t("...") 的 key（中文原文）
 界面语言
 # errors —— terr("CODE|...") 与 Rust 管道码（裸码扫不到，由 check-coverage 的 CANONICAL_CODES 兜底）
+CANCELLED
+CMD_NOT_FOUND
