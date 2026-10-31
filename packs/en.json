@@ -1,6 +1,6 @@
 {
-  "meta": { "id": "en", "name": "English", "version": "0.1.0", "minAppVersion": "0.38.0" },
-  "strings": {},
+  "meta": { "id": "en", "name": "English", "version": "0.1.1", "minAppVersion": "0.38.0" },
+  "strings": { "界面语言": "Language" },
   "errors": {
     "CANCELLED": "Cancelled",
     "CMD_NOT_FOUND": "Command not found",
