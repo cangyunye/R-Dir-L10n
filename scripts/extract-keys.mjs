@@ -88,10 +88,13 @@ if (existsSync(rustSrc)) {
 // 后续迁移批次（m3 面板 / m4 App）若出现新的变量传参来源，把文件加进这里。
 const LITERAL_PROP_FILES = [
   "src/lib/keymap.ts",
+  "src/lib/persist.ts",
   "src/App.tsx",
   "src/components/DiffDialog.tsx",
   "src/components/TextDiffDialog.tsx",
   "src/components/SettingsDialog.tsx",
+  "src/components/Sidebar.tsx",
+  "src/components/StatusBar.tsx",
 ];
 for (const rel of LITERAL_PROP_FILES) {
   const f = join(mainRepo, rel);
