@@ -83,13 +83,20 @@ if (existsSync(rustSrc)) {
 }
 
 // keymap.ts 的 label/group 存中文原文、消费端展示时过 t(a.label)；App.tsx 的
-// paletteItems 扩展命令同理——变量传参让常规 t() 字面量扫描看不到，定向提取。
-// 后续迁移批次（m2 对话框 / m3 面板 / m4 App）若出现新的变量传参来源，把文件加进这里。
-const LITERAL_PROP_FILES = ["src/lib/keymap.ts", "src/App.tsx"];
+// paletteItems、DiffDialog/TextDiffDialog 的 LEVELS/EOL_LABEL 等映射表同理——
+// 变量传参让常规 t() 字面量扫描看不到，定向提取（label/group/hint 属性字面量）。
+// 后续迁移批次（m3 面板 / m4 App）若出现新的变量传参来源，把文件加进这里。
+const LITERAL_PROP_FILES = [
+  "src/lib/keymap.ts",
+  "src/App.tsx",
+  "src/components/DiffDialog.tsx",
+  "src/components/TextDiffDialog.tsx",
+  "src/components/SettingsDialog.tsx",
+];
 for (const rel of LITERAL_PROP_FILES) {
   const f = join(mainRepo, rel);
   if (existsSync(f)) {
-    for (const m of readFileSync(f, "utf8").matchAll(/\b(?:label|group):\s*"([^"]+)"/g)) {
+    for (const m of readFileSync(f, "utf8").matchAll(/\b(?:label|group|hint):\s*"([^"]+)"/g)) {
       if (m[1]) stringKeys.add(m[1]);
     }
   }
