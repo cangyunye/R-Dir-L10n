@@ -55,6 +55,8 @@ const stringKeys = new Set();
 const codeKeys = new Set();
 
 for (const file of walk(join(mainRepo, "src"), [".ts", ".tsx"])) {
+  // 测试文件里的 t()/terr() 是用例夹具，不是 UI 文案源
+  if (/[.](test|spec|stories)\.[cm]?[jt]sx?$/.test(file)) continue;
   const src = readFileSync(file, "utf8");
   for (const m of src.matchAll(CALL_RE)) {
     const raw = m[2] ?? m[3] ?? m[4];
