@@ -38,6 +38,9 @@ pnpm extract      # 只重新生成 keys.txt
 ```
 
 - 主仓库路径自动探测：`../`（本仓库寄放在主仓库内）或 `../R-Dir`（兄弟目录）；也可显式传 `node scripts/extract-keys.mjs <主仓库根目录>`。
+- 变量传参的 key（如 keymap 的 label/group、App.tsx paletteItems——运行时经 `t(a.label)` 走翻译）
+  无法被 `t("...")` 字面量扫描发现，由 `extract-keys.mjs` 里的 `LITERAL_PROP_FILES` 定向提取；
+  后续迁移批次出现新来源时把文件加进该清单。
 - 校验口径：
   - strings 缺失（keys.txt 有、包没有）→ 失败，`--loose` 降为警告
   - strings 疑似失配（包里有、keys.txt 没有，多半是中文措辞改了）→ 失败
