@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -831,6 +831,17 @@
     "主题包已自带配色": "Theme pack ships its own colors",
     "主题调色盘": "Theme palette",
     "主题调色盘（展开 / 收回）": "Theme palette (expand / collapse)",
+    "表面 / 底色": "Surface / Base",
+    "文字 / 前景": "Text / Foreground",
+    "主色 / 强调": "Primary / Accent",
+    "次级 / 弱化": "Secondary / Muted",
+    "选中 / 状态": "Selection / State",
+    "边框 / 输入": "Border / Input",
+    "阴影": "Shadow",
+    "无": "None",
+    "轻": "Light",
+    "中": "Medium",
+    "重": "Heavy",
     "作者": "Author",
     "保存主题包失败：{msg}": "Save theme pack failed: {msg}",
     "保存到已安装主题包并选用": "Save to installed theme pack and apply",

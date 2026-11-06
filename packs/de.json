@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -831,6 +831,17 @@
     "主题包已自带配色": "Designpaket bringt eigene Farben mit",
     "主题调色盘": "Design-Palette",
     "主题调色盘（展开 / 收回）": "Design-Palette (auf-/einklappen)",
+    "表面 / 底色": "Oberfläche / Basis",
+    "文字 / 前景": "Text / Vordergrund",
+    "主色 / 强调": "Primär / Akzent",
+    "次级 / 弱化": "Sekundär / Gedämpft",
+    "选中 / 状态": "Auswahl / Status",
+    "边框 / 输入": "Rahmen / Eingabe",
+    "阴影": "Schatten",
+    "无": "Keine",
+    "轻": "Leicht",
+    "中": "Mittel",
+    "重": "Stark",
     "作者": "Autor",
     "保存主题包失败：{msg}": "Designpaket speichern fehlgeschlagen: {msg}",
     "保存到已安装主题包并选用": "Im installierten Designpaket speichern und anwenden",

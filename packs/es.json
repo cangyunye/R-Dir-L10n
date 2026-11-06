@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -831,6 +831,17 @@
     "主题包已自带配色": "El paquete de tema ya incluye sus propios colores",
     "主题调色盘": "Paleta del tema",
     "主题调色盘（展开 / 收回）": "Paleta del tema (expandir / recoger)",
+    "表面 / 底色": "Superficie / Base",
+    "文字 / 前景": "Texto / Primer plano",
+    "主色 / 强调": "Principal / Acento",
+    "次级 / 弱化": "Secundario / Atenuado",
+    "选中 / 状态": "Selección / Estado",
+    "边框 / 输入": "Borde / Entrada",
+    "阴影": "Sombra",
+    "无": "Ninguna",
+    "轻": "Ligera",
+    "中": "Media",
+    "重": "Intensa",
     "作者": "Autor",
     "保存主题包失败：{msg}": "Error al guardar paquete de tema: {msg}",
     "保存到已安装主题包并选用": "Guardar en el paquete de tema instalado y aplicar",

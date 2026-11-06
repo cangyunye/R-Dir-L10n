@@ -96,6 +96,7 @@ const LITERAL_PROP_FILES = [
   "src/components/Sidebar.tsx",
   "src/components/StatusBar.tsx",
   "src/components/FileList.tsx",
+  "src/lib/themeEditor.ts",
 ];
 for (const rel of LITERAL_PROP_FILES) {
   const f = join(mainRepo, rel);
