@@ -15,7 +15,11 @@ const loose = process.argv.includes("--loose");
 
 // 固定必配错误码（plan §4.3 首批码化）。Rust 侧这些是裸码（无 | 详情）扫不到，
 // 新增裸码时必须同步补进这里；NEED_MASTER_KEY 是 "CODE: 详情" 冒号格式且前端拦截不展示，不入表。
-const CANONICAL_CODES = ["CANCELLED", "CMD_NOT_FOUND", "NEED_PASSWORD", "WRONG_PASSWORD"];
+// WEB_OFFLINE / WEB_BAD_RESPONSE 来自前端传输层（ipc.ts 模板串 throw，提取器扫不到）。
+const CANONICAL_CODES = [
+  "CANCELLED", "CMD_NOT_FOUND", "NEED_PASSWORD", "WRONG_PASSWORD",
+  "WEB_OFFLINE", "WEB_BAD_RESPONSE",
+];
 
 const SEMVER_RE = /^\d+\.\d+\.\d+$/;
 const LANG_ID_RE = /^[a-z]{2}(-[A-Za-z]{2,4})?$/;

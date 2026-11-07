@@ -902,7 +902,9 @@
     "覆盖主题包": "Designpaket überschreiben",
     "调色盘": "Palette",
     "跟随颜色模式": "Farbmodus folgen",
-    "重置": "Zurücksetzen"
+    "重置": "Zurücksetzen",
+    "web 模式暂只支持拖拽上传到本地窗格": "Der Web-Modus unterstützt Uploads per Drag-and-drop derzeit nur in lokale Fenster",
+    "上传失败：{msg}": "Upload fehlgeschlagen: {msg}"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -911,6 +913,16 @@
     "WRONG_PASSWORD": "Incorrect password",
     "EXISTS": "Existiert bereits",
     "NOT_FILE": "Keine reguläre Datei",
-    "NOT_TEXT": "Sieht nach einer Binärdatei aus"
+    "NOT_TEXT": "Sieht nach einer Binärdatei aus",
+    "READ_ONLY": "Nur-Lese-Modus",
+    "WEB_UNSUPPORTED": "Im Web-Modus nicht verfügbar",
+    "WEB_OFFLINE": "Web-Dienst nicht erreichbar",
+    "WEB_BAD_RESPONSE": "Ungültige Antwort des Web-Dienstes",
+    "ARG_MISSING": "Fehlendes Argument",
+    "ARG_TYPE": "Falscher Argumenttyp",
+    "UNAUTHORIZED": "Nicht autorisiert",
+    "NOT_FOUND": "Nicht gefunden",
+    "NOT_DIR": "Kein Verzeichnis",
+    "UPLOAD_FAILED": "Upload fehlgeschlagen"
   }
 }

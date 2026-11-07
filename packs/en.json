@@ -902,7 +902,9 @@
     "覆盖主题包": "Overwrite theme pack",
     "调色盘": "Palette",
     "跟随颜色模式": "Follow color mode",
-    "重置": "Reset"
+    "重置": "Reset",
+    "web 模式暂只支持拖拽上传到本地窗格": "Web mode currently only supports drag-and-drop uploads into local panes",
+    "上传失败：{msg}": "Upload failed: {msg}"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -911,6 +913,16 @@
     "WRONG_PASSWORD": "Incorrect password",
     "EXISTS": "Already exists",
     "NOT_FILE": "Not a regular file",
-    "NOT_TEXT": "Looks like a binary file"
+    "NOT_TEXT": "Looks like a binary file",
+    "READ_ONLY": "Read-only mode",
+    "WEB_UNSUPPORTED": "Not available in web mode",
+    "WEB_OFFLINE": "Web service unreachable",
+    "WEB_BAD_RESPONSE": "Invalid web service response",
+    "ARG_MISSING": "Missing argument",
+    "ARG_TYPE": "Invalid argument type",
+    "UNAUTHORIZED": "Unauthorized",
+    "NOT_FOUND": "Not found",
+    "NOT_DIR": "Not a directory",
+    "UPLOAD_FAILED": "Upload failed"
   }
 }

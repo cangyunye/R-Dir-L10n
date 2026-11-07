@@ -902,7 +902,9 @@
     "覆盖主题包": "Sobrescrever pacote de tema",
     "调色盘": "Paleta",
     "跟随颜色模式": "Seguir o modo de cor",
-    "重置": "Redefinir"
+    "重置": "Redefinir",
+    "web 模式暂只支持拖拽上传到本地窗格": "O modo web atualmente só suporta uploads arrastando para painéis locais",
+    "上传失败：{msg}": "Falha no upload: {msg}"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -911,6 +913,16 @@
     "WRONG_PASSWORD": "Senha incorreta",
     "EXISTS": "Já existe",
     "NOT_FILE": "Não é um arquivo comum",
-    "NOT_TEXT": "Parece um arquivo binário"
+    "NOT_TEXT": "Parece um arquivo binário",
+    "READ_ONLY": "Modo somente leitura",
+    "WEB_UNSUPPORTED": "Não disponível no modo web",
+    "WEB_OFFLINE": "Serviço web inacessível",
+    "WEB_BAD_RESPONSE": "Resposta inválida do serviço web",
+    "ARG_MISSING": "Argumento ausente",
+    "ARG_TYPE": "Tipo de argumento inválido",
+    "UNAUTHORIZED": "Não autorizado",
+    "NOT_FOUND": "Não encontrado",
+    "NOT_DIR": "Não é um diretório",
+    "UPLOAD_FAILED": "Falha no upload"
   }
 }

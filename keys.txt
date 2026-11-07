@@ -32,6 +32,7 @@ Yu Gothic
 fd 递归中
 tar（仅打包）
 tgz（tar + gzip）
+web 模式暂只支持拖拽上传到本地窗格
 {combo} 已被「{label}」使用，请换一个组合键
 {err}\n\n要永久删除所选 {n} 项吗？此操作不可恢复。
 {ext} 文件
@@ -66,6 +67,7 @@ tgz（tar + gzip）
 上一级目录
 上下分屏
 上传
+上传失败：{msg}
 上移
 上级目录
 下一个标签页
@@ -898,8 +900,16 @@ tgz（tar + gzip）
 ，更深层暂不比对。
 ；应用不关闭则无需重复输入。
 # errors —— terr("CODE|...") 与 Rust 管道码（裸码扫不到，由 check-coverage 的 CANONICAL_CODES 兜底）
+ARG_MISSING
+ARG_TYPE
 CANCELLED
 CMD_NOT_FOUND
 EXISTS
+NOT_DIR
 NOT_FILE
+NOT_FOUND
 NOT_TEXT
+READ_ONLY
+UNAUTHORIZED
+UPLOAD_FAILED
+WEB_UNSUPPORTED

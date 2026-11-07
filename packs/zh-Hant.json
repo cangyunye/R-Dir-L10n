@@ -902,7 +902,9 @@
     "覆盖主题包": "覆蓋主題包",
     "调色盘": "調色盤",
     "跟随颜色模式": "跟隨色彩模式",
-    "重置": "重設"
+    "重置": "重設",
+    "web 模式暂只支持拖拽上传到本地窗格": "Web 模式暫只支援拖曳上傳到本地窗格",
+    "上传失败：{msg}": "上傳失敗：{msg}"
   },
   "errors": {
     "CANCELLED": "已取消",
@@ -911,6 +913,16 @@
     "WRONG_PASSWORD": "密碼錯誤",
     "EXISTS": "同名項目已存在",
     "NOT_FILE": "非常規檔案",
-    "NOT_TEXT": "疑似二進位檔案"
+    "NOT_TEXT": "疑似二進位檔案",
+    "READ_ONLY": "唯讀模式",
+    "WEB_UNSUPPORTED": "Web 模式未提供",
+    "WEB_OFFLINE": "無法連線 Web 服務",
+    "WEB_BAD_RESPONSE": "Web 服務回應異常",
+    "ARG_MISSING": "缺少參數",
+    "ARG_TYPE": "參數類型錯誤",
+    "UNAUTHORIZED": "未授權",
+    "NOT_FOUND": "找不到",
+    "NOT_DIR": "不是目錄",
+    "UPLOAD_FAILED": "上傳失敗"
   }
 }
