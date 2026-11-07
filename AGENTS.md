@@ -21,7 +21,7 @@ git 依赖引用（`github:cangyunye/R-Dir-L10n#<tag>`），导入路径 `@rdir/
 ## 脚本与校验
 
 ```bash
-node scripts/extract-keys.mjs       # 扫描主仓库 → keys.txt（自动探测 ../ 或 ../R-Dir）
+node scripts/extract-keys.mjs       # 扫描主仓库 → keys.txt（自动探测工程根，见下「环境注意」）
 node scripts/check-coverage.mjs     # 覆盖+占位符校验，全绿才算完成
 node scripts/check-coverage.mjs --loose   # 仅 strings 缺失降级为警告（errors/占位符仍硬失败）
 ```
@@ -42,7 +42,8 @@ node scripts/check-coverage.mjs --loose   # 仅 strings 缺失降级为警告（
    - `src/lib/LanguageProvider.tsx`：import 新包 + `BUILTIN_PACKS` 挂载（类型
      `Record<Exclude<Language,"zh">, Pack>` 会强制齐全，少一个编译报错）；
    - `src/components/SettingsDialog.tsx`：语言下拉加 `<option value="<lang>">语言自名</option>`；
-   - `corepack pnpm add "github:cangyunye/R-Dir-L10n#<tag>"` bump 依赖；
+   - `pnpm add "github:cangyunye/R-Dir-L10n#<tag>"` bump 依赖（pnpm ≥10 会按 packageManager
+     字段自动对齐版本；Node 26+ / Homebrew 安装不再捆绑 corepack，勿加 corepack 前缀）；
    - 复制 `e2e/i18n-en.spec.ts` 为 `<lang>` 冒烟（断言用 `getByRole` + 正则——菜单项可达名
      带快捷键后缀，exact 匹配会漏）；**bump 依赖后先杀掉 1420 端口的旧 dev server 再跑
      e2e**（`reuseExistingServer` 会复用陈旧 server，vite 对语言包 JSON 的解析缓存不失效，
@@ -73,8 +74,12 @@ node scripts/check-coverage.mjs --loose   # 仅 strings 缺失降级为警告（
 
 ## 环境注意
 
-- 主仓库路径自动探测 `../`（本仓库寄放在主仓库内，主仓库 .gitignore 已屏蔽本目录）或
-  `../R-Dir`（兄弟目录）；也可显式传参。
+- 主仓库路径自动探测按序尝试（也可显式传参）：
+  - `../`——本仓库寄放在工程根内（主仓库 .gitignore 已屏蔽本目录）；
+  - `../R-Dir/rust-file-manager`——macOS 布局：外层 `R-Dir/` 是历史改名遗留的容器目录，
+    工程根在其 `rust-file-manager/` 子目录；
+  - `../R-Dir`——Windows 布局：直接以 `R-Dir/` 目录为工程根（兄弟寄放）；
+  - `../rust-file-manager`——工程根目录本身命名为 `rust-file-manager`（兄弟寄放）。
 - `extract-keys.mjs` 的 `LITERAL_PROP_FILES` 列出「变量传参」key 的定向扫描文件
   （keymap label/group、App paletteItems 等）——主仓库新增变量传参来源时把文件加进去。
 - 主仓库 key 措辞变更后：重跑 extract → 覆盖校验会列出「疑似失配」的旧 key，在各语言包里

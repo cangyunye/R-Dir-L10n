@@ -3,7 +3,9 @@
 //   strings = 前端 t("...") 字面量（中文原文作 key）
 //   errors  = 前端 terr("CODE|...") 字面量 + Rust 源码 "CODE|..." 管道码
 // 用法：node scripts/extract-keys.mjs [主仓库根目录]
-//   缺省自动探测：../（本仓库寄放在主仓库内）或 ../R-Dir（兄弟目录）。
+//   缺省自动探测（按序）：../（L10n 寄放在工程根内）、../R-Dir/rust-file-manager
+//   （macOS：外层 R-Dir/ 是历史改名遗留的容器目录，工程根在其子目录）、
+//   ../R-Dir（Windows：R-Dir/ 即工程根）、../rust-file-manager。
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -25,7 +27,12 @@ function findMainRepo() {
   const arg = process.argv[2];
   const candidates = arg
     ? [resolve(arg)]
-    : [resolve(L10N_ROOT, ".."), resolve(L10N_ROOT, "..", "R-Dir")];
+    : [
+        resolve(L10N_ROOT, ".."), // L10n 寄放在工程根内
+        resolve(L10N_ROOT, "..", "R-Dir", "rust-file-manager"), // macOS：外层 R-Dir/ 是历史改名容器，工程根在其子目录
+        resolve(L10N_ROOT, "..", "R-Dir"), // Windows：R-Dir/ 即工程根
+        resolve(L10N_ROOT, "..", "rust-file-manager"), // 工程根目录本身名为 rust-file-manager
+      ];
   for (const dir of candidates) {
     if (existsSync(join(dir, "package.json")) && existsSync(join(dir, "src"))) return dir;
   }
