@@ -114,6 +114,24 @@ for (const rel of LITERAL_PROP_FILES) {
   }
 }
 
+// themeEditor.ts 的 validateDraft 返回「错误文案 key」（界面层 t(invalid) 查表）——
+// 变量传参常规扫描看不到，定向提取 return "..." 字面量（仅限该文件）。
+const themeEditorTs = join(mainRepo, "src", "lib", "themeEditor.ts");
+if (existsSync(themeEditorTs)) {
+  for (const m of readFileSync(themeEditorTs, "utf8").matchAll(/return\s+"([^"]+)"/g)) {
+    if (m[1]) stringKeys.add(unescapeLit(m[1]));
+  }
+}
+
+// ipc.ts 的 web 桥错误以 throw `CODE|中文详情` 模板串产出（terr 按码查 errors 表）——
+// Rust 管道码扫描只覆盖 .rs，这里定向补扫（仅限该文件）。
+const ipcTs = join(mainRepo, "src", "lib", "ipc.ts");
+if (existsSync(ipcTs)) {
+  for (const m of readFileSync(ipcTs, "utf8").matchAll(/throw\s+`([A-Z][A-Z0-9_]+)\|/g)) {
+    if (m[1]) codeKeys.add(m[1]);
+  }
+}
+
 // plugins.rs 的内置插件 name/description 以 Rust 字面量登记，前端 t(p.name)/t(p.description)
 // 动态查表（设置 → 插件面板）——常规 t() 扫描看不到，定向提取（仅限该文件，避免
 // 其他 .rs 的 name:/description: 字段误报）。Rust 转义（如 \\host）经 unescapeLit 还原为
