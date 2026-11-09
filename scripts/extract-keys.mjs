@@ -114,6 +114,17 @@ for (const rel of LITERAL_PROP_FILES) {
   }
 }
 
+// plugins.rs 的内置插件 name/description 以 Rust 字面量登记，前端 t(p.name)/t(p.description)
+// 动态查表（设置 → 插件面板）——常规 t() 扫描看不到，定向提取（仅限该文件，避免
+// 其他 .rs 的 name:/description: 字段误报）。Rust 转义（如 \\host）经 unescapeLit 还原为
+// 运行时串，与前端拿到的 key 逐字一致。
+const pluginsRs = join(mainRepo, "src-tauri", "src", "plugins.rs");
+if (existsSync(pluginsRs)) {
+  for (const m of readFileSync(pluginsRs, "utf8").matchAll(/\b(?:name|description):\s*"([^"]+)"/g)) {
+    if (m[1]) stringKeys.add(unescapeLit(m[1]));
+  }
+}
+
 const lines = [
   "# R-Dir i18n keys —— 由 scripts/extract-keys.mjs 自动生成，请勿手改",
   '# strings —— t("...") 的 key（中文原文）',
