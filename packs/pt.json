@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -724,7 +724,6 @@
     "加密并导出": "Criptografar e exportar",
     "压缩失败：{msg}": "Falha na compactação: {msg}",
     "双端远程传输暂不支持": "Transferência remota a remota ainda não é suportada",
-    "双端远程传输暂不支持（方案已评估保留）": "Transferência remota a remota ainda não é suportada (avaliada, mantida para depois)",
     "发现新版本 v{ver}": "Nova versão v{ver} encontrada",
     "发现新版本 v{ver}（帮助 → 检查更新）": "Nova versão v{ver} encontrada (Ajuda → Verificar atualizações)",
     "右": "direita",
@@ -952,7 +951,16 @@
     "会话已随使用自动保存，程序意外中断后下次启动会恢复最近布局。「保存并退出」立即保存当前布局；「不保存」将清除已保存会话，下次启动回到默认页。": "A sessão é salva automaticamente durante o uso; se o app for interrompido inesperadamente, o layout mais recente será restaurado no próximo início. \"Salvar e sair\" salva o layout atual imediatamente; \"Não salvar\" limpa a sessão salva e o próximo início volta à página padrão.",
     "SFTP 远程目录需验证主密钥后恢复，否则显示占位。": "As pastas remotas SFTP são restauradas após verificar a chave-mestra; caso contrário, um marcador de posição é exibido.",
     "不保存": "Não salvar",
-    "保存并退出": "Salvar e sair"
+    "保存并退出": "Salvar e sair",
+    "侧边栏（展开 / 收起）": "Barra lateral (expandir / recolher)",
+    "展开侧边栏（{key}）": "Expandir a barra lateral ({key})",
+    "收起侧边栏（{key}）": "Recolher a barra lateral ({key})",
+    "展开侧边栏后查看远程服务器（{key}）": "Expanda a barra lateral para ver servidores remotos ({key})",
+    "SFTP 文件按服务器分目录存放（sftp/主机名），也用于 SFTP 之间互传的中转，程序退出时自动清理。": "Os arquivos SFTP são guardados em pastas por servidor (sftp/nome do host); esta pasta também serve de trânsito para transferências entre servidores SFTP e é limpa automaticamente ao sair.",
+    "文件较大，仅预览前 256 KB，完整内容请用外部应用打开": "O arquivo é grande — apenas os primeiros 256 KB são pré-visualizados; abra o conteúdo completo em um aplicativo externo",
+    "文件含非 {enc} 字节，按近似字符显示": "O arquivo contém bytes fora de {enc}; exibido com caracteres aproximados",
+    "已按 {enc} 解码（Windows 记事本 / PowerShell 写出的配置常见编码）": "Decodificado como {enc} (a codificação que o Bloco de Notas / PowerShell do Windows normalmente gravam)",
+    "非 UTF-8 文本，已按 {enc} 解码（繁体 / 日文等其他编码可能显示为错字）": "Texto não UTF-8, decodificado como {enc} (outras codificações como chinês tradicional / japonês podem exibir caracteres errados)"
   },
   "errors": {
     "CANCELLED": "Cancelado",

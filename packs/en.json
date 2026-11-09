@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -724,7 +724,6 @@
     "加密并导出": "Encrypt & export",
     "压缩失败：{msg}": "Compression failed: {msg}",
     "双端远程传输暂不支持": "Remote-to-remote transfer is not supported yet",
-    "双端远程传输暂不支持（方案已评估保留）": "Remote-to-remote transfer is not supported yet (evaluated, kept for later)",
     "发现新版本 v{ver}": "New version v{ver} found",
     "发现新版本 v{ver}（帮助 → 检查更新）": "New version v{ver} found (Help → Check for updates)",
     "右": "right",
@@ -952,7 +951,16 @@
     "会话已随使用自动保存，程序意外中断后下次启动会恢复最近布局。「保存并退出」立即保存当前布局；「不保存」将清除已保存会话，下次启动回到默认页。": "Sessions are saved automatically as you work; if the app exits unexpectedly, the most recent layout is restored on next launch. \"Save and quit\" saves the current layout immediately; \"Don't save\" clears the saved session and next launch returns to the default page.",
     "SFTP 远程目录需验证主密钥后恢复，否则显示占位。": "SFTP remote folders are restored only after master-key verification; otherwise a placeholder is shown.",
     "不保存": "Don't save",
-    "保存并退出": "Save and quit"
+    "保存并退出": "Save and quit",
+    "侧边栏（展开 / 收起）": "Sidebar (expand / collapse)",
+    "展开侧边栏（{key}）": "Expand sidebar ({key})",
+    "收起侧边栏（{key}）": "Collapse sidebar ({key})",
+    "展开侧边栏后查看远程服务器（{key}）": "Expand the sidebar to browse remote servers ({key})",
+    "SFTP 文件按服务器分目录存放（sftp/主机名），也用于 SFTP 之间互传的中转，程序退出时自动清理。": "SFTP files are stored in per-server folders (sftp/hostname); this folder also stages transfers between SFTP servers and is cleaned up automatically on exit.",
+    "文件较大，仅预览前 256 KB，完整内容请用外部应用打开": "File is large — only the first 256 KB is previewed; open it in an external app for the full content",
+    "文件含非 {enc} 字节，按近似字符显示": "File contains bytes outside {enc}; shown with approximate characters",
+    "已按 {enc} 解码（Windows 记事本 / PowerShell 写出的配置常见编码）": "Decoded as {enc} (the encoding Windows Notepad / PowerShell commonly writes)",
+    "非 UTF-8 文本，已按 {enc} 解码（繁体 / 日文等其他编码可能显示为错字）": "Non-UTF-8 text, decoded as {enc} (other encodings such as Traditional Chinese / Japanese may show wrong glyphs)"
   },
   "errors": {
     "CANCELLED": "Cancelled",

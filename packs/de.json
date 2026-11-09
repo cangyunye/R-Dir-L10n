@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -724,7 +724,6 @@
     "加密并导出": "Verschlüsseln und exportieren",
     "压缩失败：{msg}": "Komprimierung fehlgeschlagen: {msg}",
     "双端远程传输暂不支持": "Remote-zu-Remote-Übertragung wird noch nicht unterstützt",
-    "双端远程传输暂不支持（方案已评估保留）": "Remote-zu-Remote-Übertragung wird noch nicht unterstützt (geprüft, für später vorgesehen)",
     "发现新版本 v{ver}": "Neue Version v{ver} gefunden",
     "发现新版本 v{ver}（帮助 → 检查更新）": "Neue Version v{ver} gefunden (Hilfe → Nach Updates suchen)",
     "右": "rechts",
@@ -952,7 +951,16 @@
     "会话已随使用自动保存，程序意外中断后下次启动会恢复最近布局。「保存并退出」立即保存当前布局；「不保存」将清除已保存会话，下次启动回到默认页。": "Die Sitzung wird während der Benutzung automatisch gespeichert; nach einem unerwarteten Programmabbruch wird beim nächsten Start das letzte Layout wiederhergestellt. „Speichern und beenden“ speichert das aktuelle Layout sofort; „Nicht speichern“ löscht die gespeicherte Sitzung, beim nächsten Start erscheint die Standardseite.",
     "SFTP 远程目录需验证主密钥后恢复，否则显示占位。": "SFTP-Remote-Ordner werden erst nach Hauptschlüssel-Prüfung wiederhergestellt, sonst erscheint ein Platzhalter.",
     "不保存": "Nicht speichern",
-    "保存并退出": "Speichern und beenden"
+    "保存并退出": "Speichern und beenden",
+    "侧边栏（展开 / 收起）": "Seitenleiste (aus-/einklappen)",
+    "展开侧边栏（{key}）": "Seitenleiste einblenden ({key})",
+    "收起侧边栏（{key}）": "Seitenleiste ausblenden ({key})",
+    "展开侧边栏后查看远程服务器（{key}）": "Seitenleiste einblenden, um Remote-Server zu sehen ({key})",
+    "SFTP 文件按服务器分目录存放（sftp/主机名），也用于 SFTP 之间互传的中转，程序退出时自动清理。": "SFTP-Dateien werden pro Server in eigenen Ordnern abgelegt (sftp/Hostname); dieser Ordner dient auch als Zwischenstation für Transfers zwischen SFTP-Servern und wird beim Beenden automatisch bereinigt.",
+    "文件较大，仅预览前 256 KB，完整内容请用外部应用打开": "Datei ist groß — nur die ersten 256 KB werden vorgeschaut; für den vollständigen Inhalt bitte in einer externen App öffnen",
+    "文件含非 {enc} 字节，按近似字符显示": "Datei enthält Bytes außerhalb von {enc}; mit ähnlichen Zeichen dargestellt",
+    "已按 {enc} 解码（Windows 记事本 / PowerShell 写出的配置常见编码）": "Als {enc} dekodiert (die Kodierung, die Windows-Notepad / PowerShell üblicherweise schreibt)",
+    "非 UTF-8 文本，已按 {enc} 解码（繁体 / 日文等其他编码可能显示为错字）": "Nicht-UTF-8-Text, als {enc} dekodiert (bei anderen Kodierungen wie traditionelles Chinesisch / Japanisch können falsche Zeichen erscheinen)"
   },
   "errors": {
     "CANCELLED": "Cancelled",
