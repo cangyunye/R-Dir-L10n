@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1050,7 +1050,30 @@
     "选择目录加入索引范围": "Escolha um diretório para o escopo",
     "递归层数上限（不限 = 一直递归到底）": "Profundidade máxima de recursão (ilimitada = até o fim)",
     "重建索引": "Reconstruir índice",
-    "（枚举跳过 {n} 项：无权限或已消失）": "({n} ignorados: sem permissão ou desaparecidos)"
+    "（枚举跳过 {n} 项：无权限或已消失）": "({n} ignorados: sem permissão ou desaparecidos)",
+    "用 R-Dir 打开": "Abrir com R-Dir",
+    "资源管理器右键「用 R-Dir 打开」": "Menu de contexto do Explorer “Abrir com R-Dir”",
+    "处理中…": "Processando…",
+    "已注册：目录 / 目录空白处 / 文件右键「用 R-Dir 打开」": "Registrado: pastas, fundo da pasta e arquivos mostram “Abrir com R-Dir” no menu de contexto",
+    "已注销资源管理器右键集成": "Integração com o menu de contexto do Explorer removida",
+    "目录空白处": "Fundo da pasta",
+    "任意文件": "Qualquer arquivo",
+    "注册后：右键目录 / 目录空白处「用 R-Dir 打开」直达该目录；右键文件在已运行的 R-Dir 里新建标签并定位。写入当前用户注册表（HKCU），无需管理员；已打开的窗口重新生效无需重启。": "Após o registro: clicar com o botão direito numa pasta ou no fundo da pasta → “Abrir com R-Dir” abre diretamente; clicar com o botão direito num arquivo abre no R-Dir em execução como nova aba e o seleciona. Gravado no registro do usuário atual (HKCU), sem necessidade de administrador; janelas já abertas têm efeito sem reiniciar.",
+    "当前平台无需运行时注册。": "Nenhum registro em tempo de execução é necessário nesta plataforma.",
+    "macOS：文件右键「打开方式 → R-Dir」、目录 / 文件拖到 Dock 图标，即可在 R-Dir 中打开（已运行则新建标签）。Windows 安装版安装时自动注册，此处可随时开关。": "macOS: clicar com o botão direito no arquivo → “Abrir com → R-Dir”, ou arrastar pastas / arquivos para o ícone do Dock para abrir no R-Dir (nova aba se já estiver em execução). Instaladores do Windows registram automaticamente; alterne aqui a qualquer momento.",
+    "系统集成": "Integração com o sistema",
+    "右键菜单": "Menu de contexto",
+    "右键菜单显示项": "Itens do menu de contexto",
+    "关闭不常用的菜单组，让文件右键菜单更清爽；「快捷链接」（创建快捷方式 / 发送到桌面）默认关闭，打开后仅对本地路径生效。": "Desative grupos de menu pouco usados para deixar o menu de contexto de arquivos mais limpo; “Links rápidos” (criar atalho / enviar para a área de trabalho) fica desativado por padrão e, quando ativado, vale apenas para caminhos locais.",
+    "快捷链接": "Links rápidos",
+    "创建快捷方式": "Criar atalho",
+    "发送到桌面": "Enviar para a área de trabalho",
+    "快捷链接（创建快捷方式 / 发送到桌面）": "Links rápidos (criar atalho / enviar para a área de trabalho)",
+    "已创建 {n} 个快捷方式": "{n} atalhos criados",
+    "链接": "ligação",
+    "排除的文件": "Excluir arquivos",
+    "如 **/node_modules/**, **/dist/**": "ex.: **/node_modules/**, **/dist/**",
+    "清空": "Limpar"
   },
   "errors": {
     "CANCELLED": "Cancelado",

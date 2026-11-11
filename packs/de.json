@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1050,7 +1050,30 @@
     "选择目录加入索引范围": "Ordner für den Bereich wählen",
     "递归层数上限（不限 = 一直递归到底）": "Maximale Rekursionstiefe (unbegrenzt = ganz hinunter)",
     "重建索引": "Index neu aufbauen",
-    "（枚举跳过 {n} 项：无权限或已消失）": "({n} übersprungen: keine Berechtigung oder verschwunden)"
+    "（枚举跳过 {n} 项：无权限或已消失）": "({n} übersprungen: keine Berechtigung oder verschwunden)",
+    "用 R-Dir 打开": "Mit R-Dir öffnen",
+    "资源管理器右键「用 R-Dir 打开」": "Explorer-Kontextmenü „Mit R-Dir öffnen“",
+    "处理中…": "Wird verarbeitet…",
+    "已注册：目录 / 目录空白处 / 文件右键「用 R-Dir 打开」": "Registriert: Ordner, Ordnerhintergrund und Dateien zeigen „Mit R-Dir öffnen“ im Kontextmenü",
+    "已注销资源管理器右键集成": "Explorer-Kontextmenü-Integration entfernt",
+    "目录空白处": "Ordnerhintergrund",
+    "任意文件": "Beliebige Datei",
+    "注册后：右键目录 / 目录空白处「用 R-Dir 打开」直达该目录；右键文件在已运行的 R-Dir 里新建标签并定位。写入当前用户注册表（HKCU），无需管理员；已打开的窗口重新生效无需重启。": "Nach der Registrierung: Rechtsklick auf Ordner oder Ordnerhintergrund → „Mit R-Dir öffnen“ öffnet ihn direkt; Rechtsklick auf eine Datei öffnet sie im laufenden R-Dir als neuen Tab und wählt sie aus. Wird in die Benutzerregistrierung (HKCU) geschrieben, kein Administrator erforderlich; bereits geöffnete Fenster übernehmen es ohne Neustart.",
+    "当前平台无需运行时注册。": "Auf dieser Plattform ist keine Laufzeitregistrierung nötig.",
+    "macOS：文件右键「打开方式 → R-Dir」、目录 / 文件拖到 Dock 图标，即可在 R-Dir 中打开（已运行则新建标签）。Windows 安装版安装时自动注册，此处可随时开关。": "macOS: Datei rechtsklicken → „Öffnen mit → R-Dir“ oder Ordner / Dateien aufs Dock-Symbol ziehen, um sie in R-Dir zu öffnen (neuer Tab, falls bereits laufend). Windows-Installer registrieren automatisch; hier jederzeit umschaltbar.",
+    "系统集成": "Systemintegration",
+    "右键菜单": "Kontextmenü",
+    "右键菜单显示项": "Kontextmenü-Einträge",
+    "关闭不常用的菜单组，让文件右键菜单更清爽；「快捷链接」（创建快捷方式 / 发送到桌面）默认关闭，打开后仅对本地路径生效。": "Seltener benutzte Menügruppen ausschalten, um das Datei-Kontextmenü aufzuräumen; „Schnelllinks“ (Verknüpfung erstellen / auf Desktop senden) ist standardmäßig aus und wirkt nach dem Einschalten nur auf lokale Pfade.",
+    "快捷链接": "Schnelllinks",
+    "创建快捷方式": "Verknüpfung erstellen",
+    "发送到桌面": "Auf Desktop senden",
+    "快捷链接（创建快捷方式 / 发送到桌面）": "Schnelllinks (Verknüpfung erstellen / auf Desktop senden)",
+    "已创建 {n} 个快捷方式": "{n} Verknüpfungen erstellt",
+    "链接": "Link",
+    "排除的文件": "Dateien ausschließen",
+    "如 **/node_modules/**, **/dist/**": "z. B. **/node_modules/**, **/dist/**",
+    "清空": "Leeren"
   },
   "errors": {
     "CANCELLED": "Cancelled",

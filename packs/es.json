@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1050,7 +1050,30 @@
     "选择目录加入索引范围": "Elige un directorio para el ámbito",
     "递归层数上限（不限 = 一直递归到底）": "Profundidad máxima de recursión (ilimitada = hasta el fondo)",
     "重建索引": "Reconstruir índice",
-    "（枚举跳过 {n} 项：无权限或已消失）": "({n} omitidos: sin permiso o desaparecidos)"
+    "（枚举跳过 {n} 项：无权限或已消失）": "({n} omitidos: sin permiso o desaparecidos)",
+    "用 R-Dir 打开": "Abrir con R-Dir",
+    "资源管理器右键「用 R-Dir 打开」": "Menú contextual del Explorador “Abrir con R-Dir”",
+    "处理中…": "Procesando…",
+    "已注册：目录 / 目录空白处 / 文件右键「用 R-Dir 打开」": "Registrado: carpetas, fondo de carpeta y archivos muestran “Abrir con R-Dir” en el menú contextual",
+    "已注销资源管理器右键集成": "Integración con el menú contextual del Explorador eliminada",
+    "目录空白处": "Fondo de carpeta",
+    "任意文件": "Cualquier archivo",
+    "注册后：右键目录 / 目录空白处「用 R-Dir 打开」直达该目录；右键文件在已运行的 R-Dir 里新建标签并定位。写入当前用户注册表（HKCU），无需管理员；已打开的窗口重新生效无需重启。": "Tras el registro: clic derecho en una carpeta o en el fondo de carpeta → “Abrir con R-Dir” la abre directamente; clic derecho en un archivo lo abre en el R-Dir en ejecución como nueva pestaña y lo selecciona. Se escribe en el registro del usuario actual (HKCU), sin necesidad de administrador; las ventanas ya abiertas se actualizan sin reiniciar.",
+    "当前平台无需运行时注册。": "No es necesario el registro en tiempo de ejecución en esta plataforma.",
+    "macOS：文件右键「打开方式 → R-Dir」、目录 / 文件拖到 Dock 图标，即可在 R-Dir 中打开（已运行则新建标签）。Windows 安装版安装时自动注册，此处可随时开关。": "macOS: clic derecho en un archivo → “Abrir con → R-Dir”, o arrastrar carpetas / archivos al icono del Dock para abrirlos en R-Dir (nueva pestaña si ya se está ejecutando). Los instaladores de Windows se registran automáticamente; cambie aquí en cualquier momento.",
+    "系统集成": "Integración con el sistema",
+    "右键菜单": "Menú contextual",
+    "右键菜单显示项": "Elementos del menú contextual",
+    "关闭不常用的菜单组，让文件右键菜单更清爽；「快捷链接」（创建快捷方式 / 发送到桌面）默认关闭，打开后仅对本地路径生效。": "Desactive los grupos de menú poco usados para mantener ordenado el menú contextual de archivos; “Enlaces rápidos” (crear acceso directo / enviar al escritorio) está desactivado por defecto y, al activarlo, solo afecta a rutas locales.",
+    "快捷链接": "Enlaces rápidos",
+    "创建快捷方式": "Crear acceso directo",
+    "发送到桌面": "Enviar al escritorio",
+    "快捷链接（创建快捷方式 / 发送到桌面）": "Enlaces rápidos (crear acceso directo / enviar al escritorio)",
+    "已创建 {n} 个快捷方式": "{n} accesos directos creados",
+    "链接": "enlace",
+    "排除的文件": "Excluir archivos",
+    "如 **/node_modules/**, **/dist/**": "p. ej. **/node_modules/**, **/dist/**",
+    "清空": "Vaciar"
   },
   "errors": {
     "CANCELLED": "Cancelado",

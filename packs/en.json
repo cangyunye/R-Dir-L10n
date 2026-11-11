@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1050,7 +1050,30 @@
     "选择目录加入索引范围": "Pick a directory to add to the scope",
     "递归层数上限（不限 = 一直递归到底）": "Max recursion depth (unlimited = recurse all the way down)",
     "重建索引": "Rebuild index",
-    "（枚举跳过 {n} 项：无权限或已消失）": "({n} skipped: no permission or gone)"
+    "（枚举跳过 {n} 项：无权限或已消失）": "({n} skipped: no permission or gone)",
+    "用 R-Dir 打开": "Open with R-Dir",
+    "资源管理器右键「用 R-Dir 打开」": "Explorer context menu “Open with R-Dir”",
+    "处理中…": "Working…",
+    "已注册：目录 / 目录空白处 / 文件右键「用 R-Dir 打开」": "Registered: folders, folder background and files show “Open with R-Dir” in the context menu",
+    "已注销资源管理器右键集成": "Explorer context menu integration removed",
+    "目录空白处": "Folder background",
+    "任意文件": "Any file",
+    "注册后：右键目录 / 目录空白处「用 R-Dir 打开」直达该目录；右键文件在已运行的 R-Dir 里新建标签并定位。写入当前用户注册表（HKCU），无需管理员；已打开的窗口重新生效无需重启。": "Once registered: right-click a folder or the folder background → “Open with R-Dir” opens it directly; right-click a file to open it in the running R-Dir as a new tab and reveal it. Written to the current-user registry (HKCU), no admin required; already-open windows pick it up without restart.",
+    "当前平台无需运行时注册。": "No runtime registration needed on this platform.",
+    "macOS：文件右键「打开方式 → R-Dir」、目录 / 文件拖到 Dock 图标，即可在 R-Dir 中打开（已运行则新建标签）。Windows 安装版安装时自动注册，此处可随时开关。": "macOS: right-click a file → “Open With → R-Dir”, or drag folders / files onto the Dock icon to open them in R-Dir (a new tab when already running). Windows installers register automatically; toggle here anytime.",
+    "系统集成": "System integration",
+    "右键菜单": "Context menu",
+    "右键菜单显示项": "Context menu items",
+    "关闭不常用的菜单组，让文件右键菜单更清爽；「快捷链接」（创建快捷方式 / 发送到桌面）默认关闭，打开后仅对本地路径生效。": "Turn off rarely used menu groups to keep the file context menu tidy; “Quick links” (create shortcut / send to desktop) is off by default and only applies to local paths once enabled.",
+    "快捷链接": "Quick links",
+    "创建快捷方式": "Create shortcut",
+    "发送到桌面": "Send to desktop",
+    "快捷链接（创建快捷方式 / 发送到桌面）": "Quick links (create shortcut / send to desktop)",
+    "已创建 {n} 个快捷方式": "Created {n} shortcuts",
+    "链接": "link",
+    "排除的文件": "Exclude files",
+    "如 **/node_modules/**, **/dist/**": "e.g. **/node_modules/**, **/dist/**",
+    "清空": "Clear"
   },
   "errors": {
     "CANCELLED": "Cancelled",
