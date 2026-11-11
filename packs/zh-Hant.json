@@ -2,7 +2,7 @@
   "meta": {
     "id": "zh-Hant",
     "name": "中文繁體",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "未在 web 模式提供",
     "WEB_OFFLINE": "無法連線服務",
     "WEB_BAD_RESPONSE": "服務回應異常",
-    "INDEX_DISABLED": "全盤索引未啟用：請在 設定 → 外掛程式 中開啟"
+    "INDEX_DISABLED": "全盤索引未啟用：請在 設定 → 外掛程式 中開啟",
+    "SHORTCUT_FAILED": "建立捷徑失敗",
+    "SHELLINT_FAILED": "系統整合失敗"
   }
 }

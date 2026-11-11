@@ -2,7 +2,7 @@
   "meta": {
     "id": "ja",
     "name": "日本語",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "web モードでは利用できません",
     "WEB_OFFLINE": "サービスに接続できません",
     "WEB_BAD_RESPONSE": "サービスの応答が不正です",
-    "INDEX_DISABLED": "全ディスクインデックスは無効です — 設定 → プラグイン で有効化してください"
+    "INDEX_DISABLED": "全ディスクインデックスは無効です — 設定 → プラグイン で有効化してください",
+    "SHORTCUT_FAILED": "ショートカットの作成に失敗しました",
+    "SHELLINT_FAILED": "システム統合に失敗しました"
   }
 }

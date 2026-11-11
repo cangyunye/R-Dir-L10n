@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "No disponible en modo web",
     "WEB_OFFLINE": "No se puede conectar con el servicio",
     "WEB_BAD_RESPONSE": "Respuesta inválida del servicio",
-    "INDEX_DISABLED": "El índice de disco está desactivado — actívalo en Configuración → Plugins"
+    "INDEX_DISABLED": "El índice de disco está desactivado — actívalo en Configuración → Plugins",
+    "SHORTCUT_FAILED": "No se pudo crear el acceso directo",
+    "SHELLINT_FAILED": "Error de integración con el sistema"
   }
 }

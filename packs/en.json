@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "Not available in web mode",
     "WEB_OFFLINE": "Cannot reach the service",
     "WEB_BAD_RESPONSE": "Invalid service response",
-    "INDEX_DISABLED": "Full-disk index is disabled — enable it under Settings → Plugins"
+    "INDEX_DISABLED": "Full-disk index is disabled — enable it under Settings → Plugins",
+    "SHORTCUT_FAILED": "Shortcut creation failed",
+    "SHELLINT_FAILED": "System integration failed"
   }
 }

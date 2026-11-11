@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "Não disponível no modo web",
     "WEB_OFFLINE": "Não é possível conectar ao serviço",
     "WEB_BAD_RESPONSE": "Resposta inválida do serviço",
-    "INDEX_DISABLED": "O índice de disco está desativado — ative em Configurações → Plugins"
+    "INDEX_DISABLED": "O índice de disco está desativado — ative em Configurações → Plugins",
+    "SHORTCUT_FAILED": "Falha ao criar atalho",
+    "SHELLINT_FAILED": "Falha na integração com o sistema"
   }
 }

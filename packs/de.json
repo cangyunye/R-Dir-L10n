@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1108,6 +1108,8 @@
     "WEB_UNSUPPORTED": "Im Webmodus nicht verfügbar",
     "WEB_OFFLINE": "Dienst nicht erreichbar",
     "WEB_BAD_RESPONSE": "Ungültige Dienstantwort",
-    "INDEX_DISABLED": "Festplatten-Index ist deaktiviert – unter Einstellungen → Plugins einschalten"
+    "INDEX_DISABLED": "Festplatten-Index ist deaktiviert – unter Einstellungen → Plugins einschalten",
+    "SHORTCUT_FAILED": "Verknüpfung konnte nicht erstellt werden",
+    "SHELLINT_FAILED": "Systemintegration fehlgeschlagen"
   }
 }
