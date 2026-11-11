@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1032,6 +1032,17 @@
     "已索引 {n} 项": "{n} items indexed",
     "排除目录（每行一个，含其全部子内容）": "Excluded dirs (one per line, includes all children)",
     "排除目录名（每行一个名字，对任意层级下的同名目录生效，如 node_modules）": "Excluded dir names (one per line; matches same-named dirs at any depth, e.g. node_modules)",
+    "索引文件类型": "File types",
+    "全部文件": "All files",
+    "排除所选类型": "Exclude selected types",
+    "仅索引所选类型": "Index only selected types",
+    "排除的类型（每行一个扩展名，如 log）": "Types to exclude (one extension per line, e.g. log)",
+    "仅索引的类型（每行一个扩展名，如 md；无扩展名文件不会被索引）": "Types to index (one extension per line, e.g. md; extension-less files will not be indexed)",
+    "扩展名不含点，多级扩展名（如 tar.gz）填最后一段 gz": "Extensions without the dot; for multi-part ones (e.g. tar.gz) enter the last part gz",
+    "索引隐藏文件与目录": "Index hidden files & dirs",
+    "索引隐藏文件与目录（dot 开头）": "Index hidden files & dirs (dot-prefixed)",
+    "代码": "Code",
+    "音视频": "Audio & video",
     "搜索深度": "Search depth",
     "未启用（在「插件」分区开启）": "Not enabled (turn on in the Plugins section)",
     "检索中…（全盘索引）": "Searching… (full-disk index)",

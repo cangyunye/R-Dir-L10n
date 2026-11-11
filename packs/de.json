@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1032,6 +1032,17 @@
     "已索引 {n} 项": "{n} Einträge indiziert",
     "排除目录（每行一个，含其全部子内容）": "Ausgeschlossene Ordner (einer pro Zeile, inkl. aller Unterinhalte)",
     "排除目录名（每行一个名字，对任意层级下的同名目录生效，如 node_modules）": "Ausgeschlossene Ordnernamen (einer pro Zeile; gilt für gleichnamige Ordner in beliebiger Tiefe, z. B. node_modules)",
+    "索引文件类型": "Dateitypen",
+    "全部文件": "Alle Dateien",
+    "排除所选类型": "Ausgewählte Typen ausschließen",
+    "仅索引所选类型": "Nur ausgewählte Typen indexieren",
+    "排除的类型（每行一个扩展名，如 log）": "Auszuschließende Typen (eine Endung pro Zeile, z. B. log)",
+    "仅索引的类型（每行一个扩展名，如 md；无扩展名文件不会被索引）": "Zu indexierende Typen (eine Endung pro Zeile, z. B. md; Dateien ohne Endung werden nicht indexiert)",
+    "扩展名不含点，多级扩展名（如 tar.gz）填最后一段 gz": "Endungen ohne Punkt; bei mehrgliedrigen (z. B. tar.gz) den letzten Teil gz angeben",
+    "索引隐藏文件与目录": "Versteckte Dateien & Ordner indexieren",
+    "索引隐藏文件与目录（dot 开头）": "Versteckte Dateien & Ordner indexieren (Punkt am Anfang)",
+    "代码": "Code",
+    "音视频": "Audio & Video",
     "搜索深度": "Suchtiefe",
     "未启用（在「插件」分区开启）": "Nicht aktiviert (im Bereich Plugins einschalten)",
     "检索中…（全盘索引）": "Suchen… (Festplatten-Index)",
