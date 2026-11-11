@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -793,6 +793,9 @@
     "移除常用工具失败：{msg}": "Falha ao remover ferramenta rápida: {msg}",
     "缩小": "Reduzir",
     "覆盖上传": "Sobrescrever upload",
+    "覆盖服务器配置": "Sobrescrever configuração do servidor",
+    "「{id}」已存在（现有名称：{name}），保存将覆盖其显示名、分组等配置": "\"{id}\" já existe (nome atual: {name}); salvar vai sobrescrever o nome de exibição, o grupo e outras configurações",
+    "覆盖保存": "Sobrescrever e salvar",
     "覆盖下载": "Sobrescrever download",
     "解析。": " para interpretá-lo.",
     "设置主密码": "Definir senha mestra",
@@ -1028,6 +1031,7 @@
     "实时监视：降级（周期扫描兜底，检查磁盘访问权限）": "Monitoramento ao vivo: degradado (varreduras programadas como fallback; verifique a permissão de acesso ao disco)",
     "已索引 {n} 项": "{n} itens indexados",
     "排除目录（每行一个，含其全部子内容）": "Diretórios excluídos (um por linha, inclui todo o conteúdo)",
+    "排除目录名（每行一个名字，对任意层级下的同名目录生效，如 node_modules）": "Nomes de diretórios excluídos (um por linha; vale para diretórios com o mesmo nome em qualquer nível, ex.: node_modules)",
     "搜索深度": "Profundidade de busca",
     "未启用（在「插件」分区开启）": "Não ativado (ative na seção Plugins)",
     "检索中…（全盘索引）": "Buscando… (índice de disco)",

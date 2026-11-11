@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.15",
+    "version": "0.1.16",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -793,6 +793,9 @@
     "移除常用工具失败：{msg}": "Failed to remove quick tool: {msg}",
     "缩小": "Zoom out",
     "覆盖上传": "Overwrite upload",
+    "覆盖服务器配置": "Overwrite server config",
+    "「{id}」已存在（现有名称：{name}），保存将覆盖其显示名、分组等配置": "\"{id}\" already exists (current name: {name}); saving will overwrite its display name, group, and other settings",
+    "覆盖保存": "Overwrite & save",
     "覆盖下载": "Overwrite download",
     "解析。": " to parse it.",
     "设置主密码": "Set master password",
@@ -1028,6 +1031,7 @@
     "实时监视：降级（周期扫描兜底，检查磁盘访问权限）": "Live watch: degraded (routine scans as fallback; check disk access permission)",
     "已索引 {n} 项": "{n} items indexed",
     "排除目录（每行一个，含其全部子内容）": "Excluded dirs (one per line, includes all children)",
+    "排除目录名（每行一个名字，对任意层级下的同名目录生效，如 node_modules）": "Excluded dir names (one per line; matches same-named dirs at any depth, e.g. node_modules)",
     "搜索深度": "Search depth",
     "未启用（在「插件」分区开启）": "Not enabled (turn on in the Plugins section)",
     "检索中…（全盘索引）": "Searching… (full-disk index)",

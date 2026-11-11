@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -793,6 +793,9 @@
     "移除常用工具失败：{msg}": "Error al quitar herramienta rápida: {msg}",
     "缩小": "Alejar",
     "覆盖上传": "Sobrescribir subida",
+    "覆盖服务器配置": "Sobrescribir configuración del servidor",
+    "「{id}」已存在（现有名称：{name}），保存将覆盖其显示名、分组等配置": "\"{id}\" ya existe (nombre actual: {name}); al guardar se sobrescribirán su nombre visible, el grupo y otras configuraciones",
+    "覆盖保存": "Sobrescribir y guardar",
     "覆盖下载": "Sobrescribir descarga",
     "解析。": " para interpretarlo.",
     "设置主密码": "Establecer contraseña maestra",
@@ -1028,6 +1031,7 @@
     "实时监视：降级（周期扫描兜底，检查磁盘访问权限）": "Monitorización en vivo: degradada (escaneos programados como respaldo; revisa el permiso de acceso al disco)",
     "已索引 {n} 项": "{n} elementos indexados",
     "排除目录（每行一个，含其全部子内容）": "Directorios excluidos (uno por línea, incluye todo su contenido)",
+    "排除目录名（每行一个名字，对任意层级下的同名目录生效，如 node_modules）": "Nombres de directorios excluidos (uno por línea; aplica a directorios del mismo nombre en cualquier nivel, p. ej. node_modules)",
     "搜索深度": "Profundidad de búsqueda",
     "未启用（在「插件」分区开启）": "No activado (actívalo en la sección Plugins)",
     "检索中…（全盘索引）": "Buscando… (índice de disco)",
