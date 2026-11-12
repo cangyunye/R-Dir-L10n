@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1088,7 +1088,31 @@
     "链接": "link",
     "排除的文件": "Exclude files",
     "如 **/node_modules/**, **/dist/**": "e.g. **/node_modules/**, **/dist/**",
-    "清空": "Clear"
+    "清空": "Clear",
+    "比较时忽略匹配的文本（如日志时间戳），每行一条正则": "Ignore matching text when comparing (e.g. log timestamps), one regex per line",
+    "比较时忽略匹配的文本（每行一条正则，同时应用于两侧）；应用后重新比较": "Ignore matching text when comparing (one regex per line, applied to both sides); re-compares on apply",
+    "例如：\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}": "e.g. \\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}",
+    "应用": "Apply",
+    "丢弃并应用": "Discard & apply",
+    "插入": "Insert",
+    "忽略行首到首次出现": "Ignore line start up to first occurrence of",
+    "分隔符，如 ] 或 -（字面量，自动转义）": "Separator, e.g. ] or - (literal, auto-escaped)",
+    "生成「忽略行首到首次出现该分隔符为止」的正则；行内不含分隔符的行不受影响": "Generates a regex ignoring everything from line start to the first occurrence of the separator; lines without the separator are unaffected",
+    "示例：[2024-01-01 10:00:00] [INFO] 正文，输入 ] → 保留 [INFO] 正文": "Example: [2024-01-01 10:00:00] [INFO] body — enter ] → keeps [INFO] body",
+    "预设（点击追加到左侧）": "Presets (click to append on the left)",
+    "规则跨重启持久化": "Rules persist across restarts",
+    "选择私钥文件": "Select private key file",
+    "日期时间（2024-01-01 12:00:00）": "Date & time (2024-01-01 12:00:00)",
+    "日期（2024-01-01）": "Date (2024-01-01)",
+    "时间（12:00:00）": "Time (12:00:00)",
+    "syslog 时间（Jan 01 12:00:00）": "syslog time (Jan 01 12:00:00)",
+    "紧凑时间（20240101 120000）": "Compact (20240101 120000)",
+    "Epoch 时间戳（秒/毫秒）": "Epoch timestamp (s/ms)",
+    "UUID": "UUID",
+    "可能误伤恰好 10/13 位的普通数字（如长 ID），仅确认日志为 Epoch 时间时启用": "May false-match ordinary 10/13-digit numbers (e.g. long IDs); enable only if the log really uses Epoch time",
+    "正则忽略": "Ignore regex",
+    "修改正则忽略将丢弃未保存的修改": "Changing the ignore regex will discard unsaved changes",
+    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "The ignore regex re-compares both files under the new rules; unsaved edits (including applied patches) will be discarded."
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1110,6 +1134,7 @@
     "WEB_BAD_RESPONSE": "Invalid service response",
     "INDEX_DISABLED": "Full-disk index is disabled — enable it under Settings → Plugins",
     "SHORTCUT_FAILED": "Shortcut creation failed",
-    "SHELLINT_FAILED": "System integration failed"
+    "SHELLINT_FAILED": "System integration failed",
+    "BAD_REGEX": "Invalid ignore regex"
   }
 }

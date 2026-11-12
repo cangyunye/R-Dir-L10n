@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1088,7 +1088,31 @@
     "链接": "Link",
     "排除的文件": "Dateien ausschließen",
     "如 **/node_modules/**, **/dist/**": "z. B. **/node_modules/**, **/dist/**",
-    "清空": "Leeren"
+    "清空": "Leeren",
+    "比较时忽略匹配的文本（如日志时间戳），每行一条正则": "Beim Vergleich übereinstimmenden Text ignorieren (z. B. Log-Zeitstempel), ein Regex pro Zeile",
+    "比较时忽略匹配的文本（每行一条正则，同时应用于两侧）；应用后重新比较": "Beim Vergleich übereinstimmenden Text ignorieren (ein Regex pro Zeile, für beide Seiten); Anwendung vergleicht neu",
+    "例如：\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}": "z. B. \\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}",
+    "应用": "Anwenden",
+    "丢弃并应用": "Verwerfen & anwenden",
+    "插入": "Einfügen",
+    "忽略行首到首次出现": "Zeilenanfang bis zum ersten Vorkommen ignorieren",
+    "分隔符，如 ] 或 -（字面量，自动转义）": "Trennzeichen, z. B. ] oder - (wörtlich, automatisch maskiert)",
+    "生成「忽略行首到首次出现该分隔符为止」的正则；行内不含分隔符的行不受影响": "Erzeugt einen Regex, der alles vom Zeilenanfang bis zum ersten Vorkommen des Trennzeichens ignoriert; Zeilen ohne das Trennzeichen bleiben unverändert",
+    "示例：[2024-01-01 10:00:00] [INFO] 正文，输入 ] → 保留 [INFO] 正文": "Beispiel: [2024-01-01 10:00:00] [INFO] Text – ] eingeben → behält [INFO] Text",
+    "预设（点击追加到左侧）": "Vorlagen (zum Anfügen links klicken)",
+    "规则跨重启持久化": "Regeln bleiben über Neustarts hinweg erhalten",
+    "选择私钥文件": "Private Schlüsseldatei auswählen",
+    "日期时间（2024-01-01 12:00:00）": "Datum & Uhrzeit (2024-01-01 12:00:00)",
+    "日期（2024-01-01）": "Datum (2024-01-01)",
+    "时间（12:00:00）": "Uhrzeit (12:00:00)",
+    "syslog 时间（Jan 01 12:00:00）": "syslog-Zeit (Jan 01 12:00:00)",
+    "紧凑时间（20240101 120000）": "Kompakt (20240101 120000)",
+    "Epoch 时间戳（秒/毫秒）": "Epoch-Zeitstempel (s/ms)",
+    "UUID": "UUID",
+    "可能误伤恰好 10/13 位的普通数字（如长 ID），仅确认日志为 Epoch 时间时启用": "Kann gewöhnliche 10-/13-stellige Zahlen (z. B. lange IDs) fälschlich treffen; nur aktivieren, wenn das Log wirklich Epoch-Zeit verwendet",
+    "正则忽略": "Regex ignorieren",
+    "修改正则忽略将丢弃未保存的修改": "Das Ändern der Ignore-Regex verwirft ungespeicherte Änderungen",
+    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "Die Ignore-Regex vergleicht beide Dateien nach den neuen Regeln neu; ungespeicherte Bearbeitungen (einschließlich angewendeter Patches) werden verworfen."
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1110,6 +1134,7 @@
     "WEB_BAD_RESPONSE": "Ungültige Dienstantwort",
     "INDEX_DISABLED": "Festplatten-Index ist deaktiviert – unter Einstellungen → Plugins einschalten",
     "SHORTCUT_FAILED": "Verknüpfung konnte nicht erstellt werden",
-    "SHELLINT_FAILED": "Systemintegration fehlgeschlagen"
+    "SHELLINT_FAILED": "Systemintegration fehlgeschlagen",
+    "BAD_REGEX": "Ungültiger Ignore-Regex"
   }
 }

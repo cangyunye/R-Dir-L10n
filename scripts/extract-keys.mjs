@@ -99,6 +99,7 @@ const LITERAL_PROP_FILES = [
   "src/App.tsx",
   "src/components/DiffDialog.tsx",
   "src/components/TextDiffDialog.tsx",
+  "src/components/IgnorePatternsDialog.tsx",
   "src/components/SettingsDialog.tsx",
   "src/components/Sidebar.tsx",
   "src/components/StatusBar.tsx",

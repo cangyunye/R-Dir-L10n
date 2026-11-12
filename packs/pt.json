@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1088,7 +1088,31 @@
     "链接": "ligação",
     "排除的文件": "Excluir arquivos",
     "如 **/node_modules/**, **/dist/**": "ex.: **/node_modules/**, **/dist/**",
-    "清空": "Limpar"
+    "清空": "Limpar",
+    "比较时忽略匹配的文本（如日志时间戳），每行一条正则": "Ignorar texto correspondente ao comparar (ex.: timestamps de log), uma regex por linha",
+    "比较时忽略匹配的文本（每行一条正则，同时应用于两侧）；应用后重新比较": "Ignorar texto correspondente ao comparar (uma regex por linha, aplicada aos dois lados); recompara ao aplicar",
+    "例如：\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}": "ex.: \\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}",
+    "应用": "Aplicar",
+    "丢弃并应用": "Descartar e aplicar",
+    "插入": "Inserir",
+    "忽略行首到首次出现": "Ignorar o início da linha até a primeira ocorrência",
+    "分隔符，如 ] 或 -（字面量，自动转义）": "Separador, ex.: ] ou - (literal, escapado automaticamente)",
+    "生成「忽略行首到首次出现该分隔符为止」的正则；行内不含分隔符的行不受影响": "Gera uma regex que ignora tudo do início da linha até a primeira ocorrência do separador; linhas sem o separador não são afetadas",
+    "示例：[2024-01-01 10:00:00] [INFO] 正文，输入 ] → 保留 [INFO] 正文": "Exemplo: [2024-01-01 10:00:00] [INFO] corpo, digite ] → mantém [INFO] corpo",
+    "预设（点击追加到左侧）": "Predefinições (clique para anexar à esquerda)",
+    "规则跨重启持久化": "As regras persistem entre reinícios",
+    "选择私钥文件": "Selecionar arquivo de chave privada",
+    "日期时间（2024-01-01 12:00:00）": "Data e hora (2024-01-01 12:00:00)",
+    "日期（2024-01-01）": "Data (2024-01-01)",
+    "时间（12:00:00）": "Hora (12:00:00)",
+    "syslog 时间（Jan 01 12:00:00）": "hora syslog (Jan 01 12:00:00)",
+    "紧凑时间（20240101 120000）": "Compacta (20240101 120000)",
+    "Epoch 时间戳（秒/毫秒）": "timestamp Epoch (s/ms)",
+    "UUID": "UUID",
+    "可能误伤恰好 10/13 位的普通数字（如长 ID），仅确认日志为 Epoch 时间时启用": "Pode corresponder por engano a números comuns de 10/13 dígitos (ex.: IDs longos); ative apenas se o log realmente usa hora Epoch",
+    "正则忽略": "Ignorar regex",
+    "修改正则忽略将丢弃未保存的修改": "Alterar a regex de ignorar descartará as alterações não salvas",
+    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "A regex de ignorar recompara os dois arquivos sob as novas regras; edições não salvas (incluindo patches aplicados) serão descartadas."
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1110,6 +1134,7 @@
     "WEB_BAD_RESPONSE": "Resposta inválida do serviço",
     "INDEX_DISABLED": "O índice de disco está desativado — ative em Configurações → Plugins",
     "SHORTCUT_FAILED": "Falha ao criar atalho",
-    "SHELLINT_FAILED": "Falha na integração com o sistema"
+    "SHELLINT_FAILED": "Falha na integração com o sistema",
+    "BAD_REGEX": "Regex de ignorar inválida"
   }
 }
