@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -599,10 +599,6 @@
     "用默认应用打开": "Mit Standard-App öffnen",
     "目录": "Ordner",
     "磁盘 / 卷": "Datenträger / Volumes",
-    "动画效果": "Animationseffekte",
-    "朴素": "Schlicht",
-    "优雅": "Elegant",
-    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegant: Menüs, Drag-Feedback und Bewegungen laufen weich ab; Schlicht: alles sofort (Originalverhalten)",
     "复制到「{name}」": "Kopieren nach „{name}“",
     "移动到「{name}」": "Verschieben nach „{name}“",
     "移动": "Verschieben",

@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -599,10 +599,6 @@
     "用默认应用打开": "Open with default app",
     "目录": "Folder",
     "磁盘 / 卷": "Disks / Volumes",
-    "动画效果": "Animation effects",
-    "朴素": "Plain",
-    "优雅": "Elegant",
-    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegant: menu expansion, drag feedback and motion animate smoothly; Plain: everything instant (original behavior)",
     "复制到「{name}」": "Copy to “{name}”",
     "移动到「{name}」": "Move to “{name}”",
     "移动": "Move",

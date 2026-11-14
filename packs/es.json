@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -599,10 +599,6 @@
     "用默认应用打开": "Abrir con la aplicación predeterminada",
     "目录": "Carpeta",
     "磁盘 / 卷": "Discos / Volúmenes",
-    "动画效果": "Efectos de animación",
-    "朴素": "Sencillo",
-    "优雅": "Elegante",
-    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegante: los menús, la respuesta al arrastrar y las animaciones son fluidas; Sencillo: todo instantáneo (comportamiento original)",
     "复制到「{name}」": "Copiar a «{name}»",
     "移动到「{name}」": "Mover a «{name}»",
     "移动": "Mover",
