@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1112,7 +1112,9 @@
     "可能误伤恰好 10/13 位的普通数字（如长 ID），仅确认日志为 Epoch 时间时启用": "Puede coincidir por error con números corrientes de 10/13 dígitos (p. ej. IDs largos); actívelo solo si el registro realmente usa hora Epoch",
     "正则忽略": "Ignorar regex",
     "修改正则忽略将丢弃未保存的修改": "Modificar la regex de ignorar descartará los cambios sin guardar",
-    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "La regex de ignorar vuelve a comparar ambos archivos con las nuevas reglas; las ediciones sin guardar (incluidos los parches aplicados) se descartarán."
+    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "La regex de ignorar vuelve a comparar ambos archivos con las nuevas reglas; las ediciones sin guardar (incluidos los parches aplicados) se descartarán.",
+    "改名目标已存在：{name}": "El nombre de destino ya existe: {name}",
+    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Sobrescribir fusiona las carpetas homónimas; los archivos con el mismo nombre dentro se sobrescribirán)"
   },
   "errors": {
     "CANCELLED": "Cancelado",

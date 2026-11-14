@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1112,7 +1112,9 @@
     "可能误伤恰好 10/13 位的普通数字（如长 ID），仅确认日志为 Epoch 时间时启用": "May false-match ordinary 10/13-digit numbers (e.g. long IDs); enable only if the log really uses Epoch time",
     "正则忽略": "Ignore regex",
     "修改正则忽略将丢弃未保存的修改": "Changing the ignore regex will discard unsaved changes",
-    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "The ignore regex re-compares both files under the new rules; unsaved edits (including applied patches) will be discarded."
+    "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "The ignore regex re-compares both files under the new rules; unsaved edits (including applied patches) will be discarded.",
+    "改名目标已存在：{name}": "Rename target already exists: {name}",
+    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Overwriting merges the folders — files with matching names inside will be overwritten)"
   },
   "errors": {
     "CANCELLED": "Cancelled",
