@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.20",
+    "version": "0.1.21",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -599,6 +599,12 @@
     "用默认应用打开": "Open with default app",
     "目录": "Folder",
     "磁盘 / 卷": "Disks / Volumes",
+    "动画效果": "Animation effects",
+    "朴素": "Plain",
+    "优雅": "Elegant",
+    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegant: menu expansion, drag feedback and motion animate smoothly; Plain: everything instant (original behavior)",
+    "复制到「{name}」": "Copy to “{name}”",
+    "移动到「{name}」": "Move to “{name}”",
     "移动": "Move",
     "移动到最右边": "Move to far right",
     "移除此标签": "Remove this tag",
@@ -912,8 +918,6 @@
     "超大": "Extra large",
     "自动排列": "Auto arrange",
     "整理图标": "Clean up icons",
-    "复制 {n} 项": "Copy {n} items",
-    "移动 {n} 项": "Move {n} items",
     "视图模式": "View mode",
     "详情列表": "Details list",
     "大图标": "Large icons",
