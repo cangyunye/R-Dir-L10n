@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1114,7 +1114,15 @@
     "修改正则忽略将丢弃未保存的修改": "Alterar a regex de ignorar descartará as alterações não salvas",
     "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "A regex de ignorar recompara os dois arquivos sob as novas regras; edições não salvas (incluindo patches aplicados) serão descartadas.",
     "改名目标已存在：{name}": "O nome de destino já existe: {name}",
-    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Substituir mescla as pastas homônimas — arquivos com o mesmo nome dentro serão sobrescritos)"
+    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Substituir mescla as pastas homônimas — arquivos com o mesmo nome dentro serão sobrescritos)",
+    "拖到这里取消": "Solte aqui para cancelar",
+    "松开取消": "Solte para cancelar",
+    "拖到这里删除": "Solte aqui para excluir",
+    "松开删除": "Solte para excluir",
+    "不可删除": "Não é possível excluir",
+    "松开取消拖拽": "Solte para cancelar o arrasto",
+    "松开删除到回收站（Ctrl+Z 可撤销）": "Solte para mover para a lixeira (Ctrl+Z para desfazer)",
+    "回收站仅支持本地文件": "A lixeira só oferece suporte a arquivos locais"
   },
   "errors": {
     "CANCELLED": "Cancelado",

@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.22",
+    "version": "0.1.23",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1114,7 +1114,15 @@
     "修改正则忽略将丢弃未保存的修改": "Changing the ignore regex will discard unsaved changes",
     "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "The ignore regex re-compares both files under the new rules; unsaved edits (including applied patches) will be discarded.",
     "改名目标已存在：{name}": "Rename target already exists: {name}",
-    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Overwriting merges the folders — files with matching names inside will be overwritten)"
+    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Overwriting merges the folders — files with matching names inside will be overwritten)",
+    "拖到这里取消": "Drop here to cancel",
+    "松开取消": "Release to cancel",
+    "拖到这里删除": "Drop here to delete",
+    "松开删除": "Release to delete",
+    "不可删除": "Cannot delete",
+    "松开取消拖拽": "Release to cancel the drag",
+    "松开删除到回收站（Ctrl+Z 可撤销）": "Release to move to trash (Ctrl+Z to undo)",
+    "回收站仅支持本地文件": "Trash only supports local files"
   },
   "errors": {
     "CANCELLED": "Cancelled",

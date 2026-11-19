@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1114,7 +1114,15 @@
     "修改正则忽略将丢弃未保存的修改": "Das Ändern der Ignore-Regex verwirft ungespeicherte Änderungen",
     "正则忽略会按新规则重新比较两侧文件，未保存的编辑（含已应用的补丁）将被丢弃。": "Die Ignore-Regex vergleicht beide Dateien nach den neuen Regeln neu; ungespeicherte Bearbeitungen (einschließlich angewendeter Patches) werden verworfen.",
     "改名目标已存在：{name}": "Umbenennungsziel existiert bereits: {name}",
-    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Überschreiben führt die gleichnamigen Ordner zusammen; Dateien mit gleichem Namen darin werden überschrieben)"
+    "（覆盖将合并同名目录，内部同名文件将被覆盖）": "(Überschreiben führt die gleichnamigen Ordner zusammen; Dateien mit gleichem Namen darin werden überschrieben)",
+    "拖到这里取消": "Zum Abbrechen hier ablegen",
+    "松开取消": "Loslassen zum Abbrechen",
+    "拖到这里删除": "Zum Löschen hier ablegen",
+    "松开删除": "Loslassen zum Löschen",
+    "不可删除": "Löschen nicht möglich",
+    "松开取消拖拽": "Loslassen, um den Ziehvorgang abzubrechen",
+    "松开删除到回收站（Ctrl+Z 可撤销）": "Loslassen, um in den Papierkorb zu verschieben (Strg+Z zum Widerrufen)",
+    "回收站仅支持本地文件": "Der Papierkorb unterstützt nur lokale Dateien"
   },
   "errors": {
     "CANCELLED": "Cancelled",
