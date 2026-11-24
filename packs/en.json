@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1138,7 +1138,6 @@
     "{n} 项撤销失败，可重试；失败的行仍保留新名": "{n} undo operations failed and can be retried; failed rows keep their new names",
     "上一页": "Previous page",
     "下一页": "Next page",
-    "仅在详情列表中显示；大图标与标签视图保持圆点": "Shown in the details list only; icon grid and tag views keep dots",
     "仅当前窗格 · 改名后扩展名保持不变": "Current pane only · Extensions are preserved after renaming",
     "保留原文件主名": "Keep original basename",
     "冲突": "Conflict",
@@ -1188,7 +1187,8 @@
     "超过 255 字符": "Exceeds 255 characters",
     "连续编号": "Sequential numbers",
     "非法名称": "Invalid name",
-    "预览改名": "Preview"
+    "预览改名": "Preview",
+    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Shown in the details and tree lists; icon grid and tag views keep dots"
   },
   "errors": {
     "CANCELLED": "Cancelled",

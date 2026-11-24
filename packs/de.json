@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.20",
+    "version": "0.1.21",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1138,7 +1138,6 @@
     "{n} 项撤销失败，可重试；失败的行仍保留新名": "{n} Rückgängig-Vorgänge sind fehlgeschlagen und können wiederholt werden; fehlgeschlagene Zeilen behalten den neuen Namen",
     "上一页": "Vorherige Seite",
     "下一页": "Nächste Seite",
-    "仅在详情列表中显示；大图标与标签视图保持圆点": "Nur in der Detailansicht sichtbar; Raster- und Tag-Ansicht behalten Punkte",
     "仅当前窗格 · 改名后扩展名保持不变": "Nur aktueller Bereich · Erweiterungen bleiben beim Umbenennen erhalten",
     "保留原文件主名": "Originalen Basisnamen behalten",
     "冲突": "Konflikt",
@@ -1188,7 +1187,8 @@
     "超过 255 字符": "Mehr als 255 Zeichen",
     "连续编号": "Fortlaufende Nummerierung",
     "非法名称": "Ungültiger Name",
-    "预览改名": "Vorschau"
+    "预览改名": "Vorschau",
+    "在详情与树形列表中显示；大图标与标签视图保持圆点": "In Detail- und Baumansicht sichtbar; Raster- und Tag-Ansicht behalten Punkte"
   },
   "errors": {
     "CANCELLED": "Cancelled",

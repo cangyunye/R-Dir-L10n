@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.20",
+    "version": "0.1.21",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1138,7 +1138,6 @@
     "{n} 项撤销失败，可重试；失败的行仍保留新名": "Falha ao desfazer {n} itens; é possível tentar novamente. As linhas com falha mantêm o novo nome",
     "上一页": "Página anterior",
     "下一页": "Página seguinte",
-    "仅在详情列表中显示；大图标与标签视图保持圆点": "Exibido apenas na lista de detalhes; as vistas de ícones e etiquetas mantêm pontos",
     "仅当前窗格 · 改名后扩展名保持不变": "Apenas no painel atual · As extensões são preservadas após renomear",
     "保留原文件主名": "Manter o nome base original",
     "冲突": "Conflito",
@@ -1188,7 +1187,8 @@
     "超过 255 字符": "Excede 255 caracteres",
     "连续编号": "Numeração sequencial",
     "非法名称": "Nome inválido",
-    "预览改名": "Pré-visualizar"
+    "预览改名": "Pré-visualizar",
+    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Exibido apenas nas listas de detalhes e árvore; as vistas de ícones e etiquetas mantêm pontos"
   },
   "errors": {
     "CANCELLED": "Cancelado",
