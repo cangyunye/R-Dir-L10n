@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.23",
+    "version": "0.1.24",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1122,7 +1122,12 @@
     "不可删除": "Cannot delete",
     "松开取消拖拽": "Release to cancel the drag",
     "松开删除到回收站（Ctrl+Z 可撤销）": "Release to move to trash (Ctrl+Z to undo)",
-    "回收站仅支持本地文件": "Trash only supports local files"
+    "回收站仅支持本地文件": "Trash only supports local files",
+    "动画效果": "Animation effects",
+    "朴素": "Plain",
+    "优雅": "Elegant",
+    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegant: menu expansion, drag feedback and motion animate smoothly; Plain: everything instant (original behavior)",
+    "已用 {used} / {total}（{pct}%）": "Used {used} / {total} ({pct}%)"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1145,6 +1150,7 @@
     "INDEX_DISABLED": "Full-disk index is disabled — enable it under Settings → Plugins",
     "SHORTCUT_FAILED": "Shortcut creation failed",
     "SHELLINT_FAILED": "System integration failed",
-    "BAD_REGEX": "Invalid ignore regex"
+    "BAD_REGEX": "Invalid ignore regex",
+    "NO_SUCH_PATH": "Path does not exist"
   }
 }

@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1122,7 +1122,12 @@
     "不可删除": "No se puede eliminar",
     "松开取消拖拽": "Suelte para cancelar el arrastre",
     "松开删除到回收站（Ctrl+Z 可撤销）": "Suelte para mover a la papelera (Ctrl+Z para deshacer)",
-    "回收站仅支持本地文件": "La papelera solo admite archivos locales"
+    "回收站仅支持本地文件": "La papelera solo admite archivos locales",
+    "动画效果": "Efectos de animación",
+    "朴素": "Sencillo",
+    "优雅": "Elegante",
+    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegante: los menús, la respuesta al arrastrar y las animaciones son fluidas; Sencillo: todo instantáneo (comportamiento original)",
+    "已用 {used} / {total}（{pct}%）": "Usado {used} / {total} ({pct} %)"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1145,6 +1150,7 @@
     "INDEX_DISABLED": "El índice de disco está desactivado — actívalo en Configuración → Plugins",
     "SHORTCUT_FAILED": "No se pudo crear el acceso directo",
     "SHELLINT_FAILED": "Error de integración con el sistema",
-    "BAD_REGEX": "Regex de ignorar no válida"
+    "BAD_REGEX": "Regex de ignorar no válida",
+    "NO_SUCH_PATH": "La ruta no existe"
   }
 }

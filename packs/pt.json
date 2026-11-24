@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1122,7 +1122,12 @@
     "不可删除": "Não é possível excluir",
     "松开取消拖拽": "Solte para cancelar o arrasto",
     "松开删除到回收站（Ctrl+Z 可撤销）": "Solte para mover para a lixeira (Ctrl+Z para desfazer)",
-    "回收站仅支持本地文件": "A lixeira só oferece suporte a arquivos locais"
+    "回收站仅支持本地文件": "A lixeira só oferece suporte a arquivos locais",
+    "动画效果": "Efeitos de animação",
+    "朴素": "Simples",
+    "优雅": "Elegante",
+    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegante: menus, feedback de arrastar e movimentos suaves; Simples: tudo instantâneo (comportamento original)",
+    "已用 {used} / {total}（{pct}%）": "Usado {used} / {total} ({pct}%)"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1145,6 +1150,7 @@
     "INDEX_DISABLED": "O índice de disco está desativado — ative em Configurações → Plugins",
     "SHORTCUT_FAILED": "Falha ao criar atalho",
     "SHELLINT_FAILED": "Falha na integração com o sistema",
-    "BAD_REGEX": "Regex de ignorar inválida"
+    "BAD_REGEX": "Regex de ignorar inválida",
+    "NO_SUCH_PATH": "O caminho não existe"
   }
 }

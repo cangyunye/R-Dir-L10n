@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1122,7 +1122,12 @@
     "不可删除": "Löschen nicht möglich",
     "松开取消拖拽": "Loslassen, um den Ziehvorgang abzubrechen",
     "松开删除到回收站（Ctrl+Z 可撤销）": "Loslassen, um in den Papierkorb zu verschieben (Strg+Z zum Widerrufen)",
-    "回收站仅支持本地文件": "Der Papierkorb unterstützt nur lokale Dateien"
+    "回收站仅支持本地文件": "Der Papierkorb unterstützt nur lokale Dateien",
+    "动画效果": "Animationseffekte",
+    "朴素": "Schlicht",
+    "优雅": "Elegant",
+    "雅：菜单展开、拖拽反馈与动效平滑跟手；素：全部瞬时（原始行为）": "Elegant: Menüs, Drag-Feedback und Bewegungen laufen weich ab; Schlicht: alles sofort (Originalverhalten)",
+    "已用 {used} / {total}（{pct}%）": "Belegt {used} / {total} ({pct} %)"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1145,6 +1150,7 @@
     "INDEX_DISABLED": "Festplatten-Index ist deaktiviert – unter Einstellungen → Plugins einschalten",
     "SHORTCUT_FAILED": "Verknüpfung konnte nicht erstellt werden",
     "SHELLINT_FAILED": "Systemintegration fehlgeschlagen",
-    "BAD_REGEX": "Ungültiger Ignore-Regex"
+    "BAD_REGEX": "Ungültiger Ignore-Regex",
+    "NO_SUCH_PATH": "Pfad existiert nicht"
   }
 }
