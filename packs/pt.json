@@ -2,7 +2,7 @@
   "meta": {
     "id": "pt",
     "name": "Português",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1188,7 +1188,10 @@
     "连续编号": "Numeração sequencial",
     "非法名称": "Nome inválido",
     "预览改名": "Pré-visualizar",
-    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Exibido apenas nas listas de detalhes e árvore; as vistas de ícones e etiquetas mantêm pontos"
+    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Exibido apenas nas listas de detalhes e árvore; as vistas de ícones e etiquetas mantêm pontos",
+    "解压目标已存在": "O destino de extração já existe",
+    "已存在同名文件夹「{name}」。覆盖将合并写入其中（同名文件将被替换）；取消则放弃本次解压。": "Já existe uma pasta \"{name}\". Sobrescrever fará a mesclagem nela (arquivos de mesmo nome serão substituídos); Cancelar aborta esta extração.",
+    "覆盖解压": "Sobrescrever e extrair"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1212,6 +1215,7 @@
     "SHORTCUT_FAILED": "Falha ao criar atalho",
     "SHELLINT_FAILED": "Falha na integração com o sistema",
     "BAD_REGEX": "Regex de ignorar inválida",
-    "NO_SUCH_PATH": "O caminho não existe"
+    "NO_SUCH_PATH": "O caminho não existe",
+    "EXTRACT_CONFLICT": "O destino de extração já existe: {detail}"
   }
 }

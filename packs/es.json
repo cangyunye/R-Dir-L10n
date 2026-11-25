@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1188,7 +1188,10 @@
     "连续编号": "Numeración secuencial",
     "非法名称": "Nombre no válido",
     "预览改名": "Vista previa",
-    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Se muestra solo en las listas de detalles y árbol; las vistas de iconos y etiquetas mantienen los puntos"
+    "在详情与树形列表中显示；大图标与标签视图保持圆点": "Se muestra solo en las listas de detalles y árbol; las vistas de iconos y etiquetas mantienen los puntos",
+    "解压目标已存在": "El destino de extracción ya existe",
+    "已存在同名文件夹「{name}」。覆盖将合并写入其中（同名文件将被替换）；取消则放弃本次解压。": "Ya existe una carpeta \"{name}\". Sobrescribir la fusionará (los archivos del mismo nombre se reemplazarán); Cancelar aborta esta extracción.",
+    "覆盖解压": "Sobrescribir y extraer"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1212,6 +1215,7 @@
     "SHORTCUT_FAILED": "No se pudo crear el acceso directo",
     "SHELLINT_FAILED": "Error de integración con el sistema",
     "BAD_REGEX": "Regex de ignorar no válida",
-    "NO_SUCH_PATH": "La ruta no existe"
+    "NO_SUCH_PATH": "La ruta no existe",
+    "EXTRACT_CONFLICT": "El destino de extracción ya existe: {detail}"
   }
 }
