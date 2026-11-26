@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.22",
+    "version": "0.1.23",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1191,7 +1191,25 @@
     "在详情与树形列表中显示；大图标与标签视图保持圆点": "In Detail- und Baumansicht sichtbar; Raster- und Tag-Ansicht behalten Punkte",
     "解压目标已存在": "Extraktionsziel existiert bereits",
     "已存在同名文件夹「{name}」。覆盖将合并写入其中（同名文件将被替换）；取消则放弃本次解压。": "Ein Ordner „{name}“ existiert bereits. Überschreiben führt ihn zusammen (gleichnamige Dateien werden ersetzt); Abbruch bricht die Extraktion ab.",
-    "覆盖解压": "Überschreiben & entpacken"
+    "覆盖解压": "Überschreiben & entpacken",
+    "按下": "Maus gedrückt",
+    "单击": "Klick",
+    "双击事件": "Doppelklick-Ereignis",
+    "按键": "Tastendruck",
+    "跳转目录": "Zu Ordner navigieren",
+    "切换窗格": "Bereich wechseln",
+    "开始重命名": "Umbenennen gestartet",
+    "新加载": "Neu laden",
+    "同路合并": "Zusammengeführt (gleicher Pfad)",
+    "取消旧加载": "Altes Laden abgebrochen",
+    "加载失败": "Laden fehlgeschlagen",
+    "加载完成": "Laden abgeschlossen",
+    "当前路径": "Aktueller Pfad",
+    "是": "Ja",
+    "否": "Nein",
+    "导航诊断 NAV DEBUG（只读，不拦截操作）": "Navigationsdiagnose NAV DEBUG (schreibgeschützt, blockiert nichts)",
+    "加载中 {s} · 选中 {n} 项 · 事件 {m} 条": "Lädt {s} · {n} ausgewählt · {m} Ereignisse",
+    "（尚无事件——在列表里点几下）": "(Noch keine Ereignisse – klicke ein paar Mal in die Liste)"
   },
   "errors": {
     "CANCELLED": "Cancelled",

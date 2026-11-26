@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.27",
+    "version": "0.1.28",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1191,7 +1191,25 @@
     "在详情与树形列表中显示；大图标与标签视图保持圆点": "Shown in the details and tree lists; icon grid and tag views keep dots",
     "解压目标已存在": "Extract destination already exists",
     "已存在同名文件夹「{name}」。覆盖将合并写入其中（同名文件将被替换）；取消则放弃本次解压。": "A folder named \"{name}\" already exists. Overwriting will merge into it (same-named files will be replaced); Cancel aborts this extraction.",
-    "覆盖解压": "Overwrite & extract"
+    "覆盖解压": "Overwrite & extract",
+    "按下": "Mousedown",
+    "单击": "Click",
+    "双击事件": "Double-click event",
+    "按键": "Keypress",
+    "跳转目录": "Navigate to folder",
+    "切换窗格": "Switch pane",
+    "开始重命名": "Rename started",
+    "新加载": "New load",
+    "同路合并": "Coalesced (same path)",
+    "取消旧加载": "Cancelled old load",
+    "加载失败": "Load failed",
+    "加载完成": "Load done",
+    "当前路径": "Current path",
+    "是": "Yes",
+    "否": "No",
+    "导航诊断 NAV DEBUG（只读，不拦截操作）": "Nav diagnostics NAV DEBUG (read-only, blocks nothing)",
+    "加载中 {s} · 选中 {n} 项 · 事件 {m} 条": "Loading {s} · {n} selected · {m} events",
+    "（尚无事件——在列表里点几下）": "(No events yet — click a few rows in the list)"
   },
   "errors": {
     "CANCELLED": "Cancelled",
