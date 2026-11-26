@@ -2,7 +2,7 @@
   "meta": {
     "id": "en",
     "name": "English",
-    "version": "0.1.28",
+    "version": "0.1.29",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1209,7 +1209,20 @@
     "否": "No",
     "导航诊断 NAV DEBUG（只读，不拦截操作）": "Nav diagnostics NAV DEBUG (read-only, blocks nothing)",
     "加载中 {s} · 选中 {n} 项 · 事件 {m} 条": "Loading {s} · {n} selected · {m} events",
-    "（尚无事件——在列表里点几下）": "(No events yet — click a few rows in the list)"
+    "（尚无事件——在列表里点几下）": "(No events yet — click a few rows in the list)",
+    "macOS / Linux 上打开句柄不会阻止删除或移动，此处仅为提示": "On macOS / Linux, open handles do not block deletion or moves — informational only",
+    "{n} 个进程正在使用此文件": "{n} processes are using this file",
+    "文件占用详情": "File usage details",
+    "未发现占用此文件的进程": "No processes found using this file",
+    "查看占用": "View usage",
+    "正在检查占用…": "Checking usage…",
+    "确定结束「{name}」（PID {pid}）吗？该进程未保存的数据可能丢失。": "End “{name}” (PID {pid})? Unsaved data of this process may be lost.",
+    "结束中…": "Ending…",
+    "结束进程": "End process",
+    "被占用，但无法确定占用进程（可能是系统句柄或已由当前应用占用）": "In use, but the process could not be determined (possibly a system handle or held by this app itself)",
+    "该目录被占用（可能是某进程的工作目录），无法列出具体进程": "This directory is in use (possibly as some process's working directory); the specific process cannot be listed",
+    "重新检查": "Recheck",
+    "重试": "Retry"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1234,6 +1247,7 @@
     "SHELLINT_FAILED": "System integration failed",
     "BAD_REGEX": "Invalid ignore regex",
     "NO_SUCH_PATH": "Path does not exist",
-    "EXTRACT_CONFLICT": "Extract destination already exists: {detail}"
+    "EXTRACT_CONFLICT": "Extract destination already exists: {detail}",
+    "IN_USE": "File in use"
   }
 }

@@ -2,7 +2,7 @@
   "meta": {
     "id": "es",
     "name": "Español",
-    "version": "0.1.23",
+    "version": "0.1.24",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1209,7 +1209,20 @@
     "否": "No",
     "导航诊断 NAV DEBUG（只读，不拦截操作）": "Diagnóstico de navegación NAV DEBUG (solo lectura, no bloquea nada)",
     "加载中 {s} · 选中 {n} 项 · 事件 {m} 条": "Cargando {s} · {n} seleccionados · {m} eventos",
-    "（尚无事件——在列表里点几下）": "(Aún no hay eventos: haz unos clics en la lista)"
+    "（尚无事件——在列表里点几下）": "(Aún no hay eventos: haz unos clics en la lista)",
+    "macOS / Linux 上打开句柄不会阻止删除或移动，此处仅为提示": "En macOS / Linux, los identificadores abiertos no impiden eliminar ni mover; esto es solo informativo",
+    "{n} 个进程正在使用此文件": "{n} procesos están usando este archivo",
+    "文件占用详情": "Detalles de uso del archivo",
+    "未发现占用此文件的进程": "No se encontraron procesos usando este archivo",
+    "查看占用": "Ver uso",
+    "正在检查占用…": "Comprobando uso…",
+    "确定结束「{name}」（PID {pid}）吗？该进程未保存的数据可能丢失。": "¿Finalizar «{name}» (PID {pid})? Los datos no guardados de este proceso pueden perderse.",
+    "结束中…": "Finalizando…",
+    "结束进程": "Finalizar proceso",
+    "被占用，但无法确定占用进程（可能是系统句柄或已由当前应用占用）": "En uso, pero no se pudo determinar el proceso (puede ser un identificador del sistema o estar en uso por la propia app)",
+    "该目录被占用（可能是某进程的工作目录），无法列出具体进程": "Este directorio está en uso (posiblemente como directorio de trabajo de algún proceso); no se puede mostrar el proceso específico",
+    "重新检查": "Volver a comprobar",
+    "重试": "Reintentar"
   },
   "errors": {
     "CANCELLED": "Cancelado",
@@ -1234,6 +1247,7 @@
     "SHELLINT_FAILED": "Error de integración con el sistema",
     "BAD_REGEX": "Regex de ignorar no válida",
     "NO_SUCH_PATH": "La ruta no existe",
-    "EXTRACT_CONFLICT": "El destino de extracción ya existe: {detail}"
+    "EXTRACT_CONFLICT": "El destino de extracción ya existe: {detail}",
+    "IN_USE": "Archivo en uso"
   }
 }

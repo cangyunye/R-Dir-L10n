@@ -2,7 +2,7 @@
   "meta": {
     "id": "de",
     "name": "Deutsch",
-    "version": "0.1.23",
+    "version": "0.1.24",
     "minAppVersion": "0.38.0"
   },
   "strings": {
@@ -1209,7 +1209,20 @@
     "否": "Nein",
     "导航诊断 NAV DEBUG（只读，不拦截操作）": "Navigationsdiagnose NAV DEBUG (schreibgeschützt, blockiert nichts)",
     "加载中 {s} · 选中 {n} 项 · 事件 {m} 条": "Lädt {s} · {n} ausgewählt · {m} Ereignisse",
-    "（尚无事件——在列表里点几下）": "(Noch keine Ereignisse – klicke ein paar Mal in die Liste)"
+    "（尚无事件——在列表里点几下）": "(Noch keine Ereignisse – klicke ein paar Mal in die Liste)",
+    "macOS / Linux 上打开句柄不会阻止删除或移动，此处仅为提示": "Unter macOS / Linux blockieren offene Handles weder Löschen noch Verschieben – dies ist nur ein Hinweis",
+    "{n} 个进程正在使用此文件": "{n} Prozesse verwenden diese Datei",
+    "文件占用详情": "Details zur Dateinutzung",
+    "未发现占用此文件的进程": "Keine Prozesse gefunden, die diese Datei verwenden",
+    "查看占用": "Nutzung anzeigen",
+    "正在检查占用…": "Belegung wird geprüft…",
+    "确定结束「{name}」（PID {pid}）吗？该进程未保存的数据可能丢失。": "„{name}“ (PID {pid}) wirklich beenden? Ungespeicherte Daten dieses Prozesses können verloren gehen.",
+    "结束中…": "Wird beendet…",
+    "结束进程": "Prozess beenden",
+    "被占用，但无法确定占用进程（可能是系统句柄或已由当前应用占用）": "Wird verwendet, aber der Prozess konnte nicht ermittelt werden (möglicherweise ein System-Handle oder von dieser App selbst belegt)",
+    "该目录被占用（可能是某进程的工作目录），无法列出具体进程": "Das Verzeichnis wird verwendet (möglicherweise als Arbeitsverzeichnis eines Prozesses); der konkrete Prozess kann nicht aufgelistet werden",
+    "重新检查": "Erneut prüfen",
+    "重试": "Erneut versuchen"
   },
   "errors": {
     "CANCELLED": "Cancelled",
@@ -1234,6 +1247,7 @@
     "SHELLINT_FAILED": "Systemintegration fehlgeschlagen",
     "BAD_REGEX": "Ungültiger Ignore-Regex",
     "NO_SUCH_PATH": "Pfad existiert nicht",
-    "EXTRACT_CONFLICT": "Extraktionsziel existiert bereits: {detail}"
+    "EXTRACT_CONFLICT": "Extraktionsziel existiert bereits: {detail}",
+    "IN_USE": "Datei wird verwendet"
   }
 }
